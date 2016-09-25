@@ -31,6 +31,7 @@ namespace ConsoleApplication1
             }
             consulta = pConsulta;
             calcularPesoConsulta(nsubi,totalDocs);
+
             docs = new byte[12*nsubi];
             docs= File.ReadAllBytes(aiPath).Skip(12*inicio).Take(12*nsubi).ToArray();
 

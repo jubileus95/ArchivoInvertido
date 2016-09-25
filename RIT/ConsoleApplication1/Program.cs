@@ -84,6 +84,9 @@ namespace ConsoleApplication1
 
                     }
 
+                    normaConsulta = 0;
+                    
+
 
 
 
