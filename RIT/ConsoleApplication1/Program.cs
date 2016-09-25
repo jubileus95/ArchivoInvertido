@@ -5,6 +5,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
 
@@ -53,7 +54,7 @@ namespace ConsoleApplication1
                             }
                             catch (System.IndexOutOfRangeException)
                             {
-                                consulta.Add(args[i);
+                                consulta.Add(args[i]);
                             }
                             
                         }
@@ -63,6 +64,9 @@ namespace ConsoleApplication1
                         
                     }
 
+                    DataTable diccionarioTable = cargarDiccionario("");
+
+             
 
 
 
@@ -214,13 +218,44 @@ namespace ConsoleApplication1
                 object[] array = row.ItemArray;
                 for (i = 0; i < array.Length - 1; i++)
                 {
-                    swExtLogFile.Write(array[i].ToString() + "|");
+                    swExtLogFile.Write(array[i].ToString() + ",");
                 }
                 swExtLogFile.WriteLine(array[i].ToString());
             }
             swExtLogFile.Write("*****END OF DATA****" + DateTime.Now.ToString());
             swExtLogFile.Flush();
             swExtLogFile.Close();
+
+        }
+
+        static public DataTable cargarDiccionario(String strFilePath) {
+
+            DataTable diccionarioTable = new DataTable();
+
+            diccionarioTable.Columns.Add("termino", typeof(string));
+            diccionarioTable.Columns.Add("inicio", typeof(int));
+            diccionarioTable.Columns.Add("numDocs", typeof(int));
+
+  
+
+            StreamReader sr = new StreamReader(strFilePath);
+            string[] headers = sr.ReadLine().Split(',');
+            DataTable dt = new DataTable();
+            foreach (string header in headers)
+            {
+                dt.Columns.Add(header);
+            }
+            while (!sr.EndOfStream)
+            {   
+                string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
+                DataRow dr = dt.NewRow();
+                for (int i = 0; i < headers.Length; i++)
+                {
+                    dr[i] = rows[i];
+                }
+                dt.Rows.Add(dr);
+            }
+            return dt;
 
         }
     }
