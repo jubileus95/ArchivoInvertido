@@ -68,6 +68,22 @@ namespace ConsoleApplication1
                     DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
 
                     List<TerminoConsulta> consultas = new List<TerminoConsulta>();
+                    foreach (String termino in consulta)
+                    {
+                        String tempTerm = termino;
+
+                        if (termino[0] == '+' || termino[0] == '-') { 
+                        tempTerm = termino.Substring(1);
+                    }
+
+                        foreach (DataRow row in diccionarioTable.Rows) {
+                            if (tempTerm == (string)row.ItemArray[0]) {
+                                consultas.Add(new TerminoConsulta(termino,(int)row.ItemArray[2],documentosTable.Rows.Count,(int)row.ItemArray[1],archivoInvertidoPath+"postings"));
+                            }
+                        }
+
+                    }
+
 
 
 
@@ -254,6 +270,7 @@ namespace ConsoleApplication1
                 }
                 diccionarioTable.Rows.Add(dr);
                 }
+
            
             }
             return diccionarioTable;
