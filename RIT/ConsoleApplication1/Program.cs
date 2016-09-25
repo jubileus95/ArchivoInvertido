@@ -67,10 +67,12 @@ namespace ConsoleApplication1
                     DataTable diccionarioTable = cargarDiccionario(archivoInvertidoPath + "diccionario.txt");
                     DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
 
+                    List<TerminoConsulta> consultas = new List<TerminoConsulta>();
 
 
 
-                    System.Console.WriteLine(consulta);
+
+                    System.Console.WriteLine("Done");
                 }
 
                 else if (command == "-ce")
