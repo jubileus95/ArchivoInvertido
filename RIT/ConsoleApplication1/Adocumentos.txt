@@ -1,0 +1,21 @@
+0,../../Flora-20160122\10-Quercus salicifolia Nee.xml
+1,../../Flora-20160122\11-Quercus sapotifolia Liebm..xml
+2,../../Flora-20160122\12-Abatia parviflora Ruiz & Pav..xml
+3,../../Flora-20160122\13-Banara guianensis Aubl..xml
+4,../../Flora-20160122\14-Carpotroche platyptera Pittier.xml
+5,../../Flora-20160122\15-Casearia aculeata Jacq..xml
+6,../../Flora-20160122\16-Casearia arborea (Rich.) Urb..xml
+7,../../Flora-20160122\17-Casearia arguta Kunth.xml
+8,../../Flora-20160122\18-Casearia commersoniana Cambess.xml
+9,../../Flora-20160122\19-Casearia coronata Standl. & L. O. Williams.xml
+10,../../Flora-20160122\2-Lecointea amazonica Ducke.xml
+11,../../Flora-20160122\20-Casearia corymbosa Kunth.xml
+12,../../Flora-20160122\21-Casearia hirsuta Sw..xml
+13,../../Flora-20160122\3-Quercus benthamii A. DC..xml
+14,../../Flora-20160122\4-Quercus bumelioides Liebm..xml
+15,../../Flora-20160122\5-Quercus corrugata Hook..xml
+16,../../Flora-20160122\6-Quercus cortesii Liebm..xml
+17,../../Flora-20160122\7-Quercus costaricensis Liebm..xml
+18,../../Flora-20160122\8-Quercus insignis M. Martens & Galeotti.xml
+19,../../Flora-20160122\9-Quercus oleoides Schltdl. & Cham..xml
+*****END OF DATA****25/09/2016 12:48:09

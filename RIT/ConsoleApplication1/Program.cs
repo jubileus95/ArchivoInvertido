@@ -64,9 +64,9 @@ namespace ConsoleApplication1
                         
                     }
 
-                    DataTable diccionarioTable = cargarDiccionario("");
+                    DataTable diccionarioTable = cargarDiccionario(archivoInvertidoPath + "diccionario.txt");
+                    DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
 
-             
 
 
 
@@ -239,23 +239,53 @@ namespace ConsoleApplication1
   
 
             StreamReader sr = new StreamReader(strFilePath);
-            string[] headers = sr.ReadLine().Split(',');
-            DataTable dt = new DataTable();
-            foreach (string header in headers)
-            {
-                dt.Columns.Add(header);
-            }
+
+
             while (!sr.EndOfStream)
-            {   
+            {
                 string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
-                DataRow dr = dt.NewRow();
-                for (int i = 0; i < headers.Length; i++)
+                if (rows.Length > 1) { 
+                DataRow dr = diccionarioTable.NewRow();
+                for (int i = 0; i < diccionarioTable.Columns.Count; i++)
                 {
                     dr[i] = rows[i];
                 }
-                dt.Rows.Add(dr);
+                diccionarioTable.Rows.Add(dr);
+                }
+           
             }
-            return dt;
+            return diccionarioTable;
+
+        }
+        
+        static public DataTable cargarDocumentos(String strFilePath)
+        {
+
+            DataTable documentosTable = new DataTable();
+
+            documentosTable.Columns.Add("docID", typeof(int));
+            documentosTable.Columns.Add("docPath", typeof(string));
+
+
+
+            StreamReader sr = new StreamReader(strFilePath);
+
+
+            while (!sr.EndOfStream)
+            {
+                string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
+                if (rows.Length > 1)
+                {
+                    DataRow dr = documentosTable.NewRow();
+                    for (int i = 0; i < documentosTable.Columns.Count; i++)
+                    {
+                        dr[i] = rows[i];
+                    }
+                    documentosTable.Rows.Add(dr);
+                }
+
+            }
+            return documentosTable;
 
         }
     }
