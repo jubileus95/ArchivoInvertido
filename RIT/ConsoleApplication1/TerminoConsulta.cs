@@ -14,6 +14,58 @@ namespace ConsoleApplication1
         private float peso;
         private byte[] docs;
 
+        public string Consulta
+        {
+            get
+            {
+                return consulta;
+            }
+
+            set
+            {
+                consulta = value;
+            }
+        }
+
+        public int Freq
+        {
+            get
+            {
+                return freq;
+            }
+
+            set
+            {
+                freq = value;
+            }
+        }
+
+        public float Peso
+        {
+            get
+            {
+                return peso;
+            }
+
+            set
+            {
+                peso = value;
+            }
+        }
+
+        public byte[] Docs
+        {
+            get
+            {
+                return docs;
+            }
+
+            set
+            {
+                docs = value;
+            }
+        }
+
         public TerminoConsulta(String pConsulta,int nsubi,int totalDocs,int inicio,string aiPath) {
             if (pConsulta[0] == '+')
             {
@@ -29,7 +81,7 @@ namespace ConsoleApplication1
             {
                 freq = 2;
             }
-            consulta = pConsulta;
+            Consulta = pConsulta;
             calcularPesoConsulta(nsubi,totalDocs);
 
             docs = new byte[12*nsubi];

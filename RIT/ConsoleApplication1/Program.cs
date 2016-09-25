@@ -84,7 +84,20 @@ namespace ConsoleApplication1
 
                     }
 
-                    normaConsulta = 0;
+                    float normaConsulta = 0;
+                    foreach (TerminoConsulta cons in consultas) {
+                        normaConsulta += (float)Math.Pow(cons.Peso, 2);
+                    }
+                    normaConsulta = (float)Math.Sqrt((double)normaConsulta);
+
+                    List<int> docs = new List<int>();
+                    
+                    foreach (TerminoConsulta cons in consultas) {
+                        for (int i = 0; i < (cons.Docs.Length / 12;i++){
+                            
+                        }
+                    }
+
                     
 
 
