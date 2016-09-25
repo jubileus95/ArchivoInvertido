@@ -39,12 +39,32 @@ namespace ConsoleApplication1
 
                     String archivoInvertidoPath = args[1];
                     String prefijo = args[2];
-                    String consulta = args[3];
+                    List<String> consulta = new List<String>();
 
-                    for (int i = 4; i < args.Length; i++)
+                    for (int i = 3; i < args.Length; i++)
                     {
-                        consulta += " " + args[i];
+                        if (args[i][0] == '!')
+                        {
+                            args[i]=args[i].Substring(1);
+                            try
+                            {
+                                consulta.Add(args[i] + " " + args[i + 1]);
+                                i++;
+                            }
+                            catch (System.IndexOutOfRangeException)
+                            {
+                                consulta.Add(args[i);
+                            }
+                            
+                        }
+                        else {
+                            consulta.Add(args[i]);
+                        }
+                        
                     }
+
+
+
 
                     System.Console.WriteLine(consulta);
                 }
