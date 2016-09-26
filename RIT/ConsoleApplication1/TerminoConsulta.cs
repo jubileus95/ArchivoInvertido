@@ -13,6 +13,7 @@ namespace ConsoleApplication1
         private int freq;
         private float peso;
         private byte[] docs;
+        
 
         public string Consulta
         {
