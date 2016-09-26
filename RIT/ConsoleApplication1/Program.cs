@@ -89,8 +89,9 @@ namespace ConsoleApplication1
                         normaConsulta += (float)Math.Pow(cons.Peso, 2);
                     }
                     normaConsulta = (float)Math.Sqrt((double)normaConsulta);
-                    List<Tuple<int, float>> misDocs = new List<Tuple<int, float>>();
+                    List<Tuple<int, float,float>> misDocs = new List<Tuple<int, float,float>>();
                     List<int> onlyDocs = new List<int>();
+                    
                     foreach (TerminoConsulta cons in consultas) {
                         for (int i = 0; i < (cons.Docs.Length); i = i + 12)
                         {
@@ -101,12 +102,12 @@ namespace ConsoleApplication1
                             int docId = BitConverter.ToInt32(mydoc, 0);
                             float peso = BitConverter.ToSingle(myPeso, 0);
                             onlyDocs.Add(docId);
-                            misDocs.Add(Tuple.Create(docId, (float)Math.Pow(peso, 2)));
+                            misDocs.Add(Tuple.Create(docId, (float)Math.Pow(peso, 2),peso*cons.Peso));
                         }
 
                     }
 
-                    List<Tuple<int, float>> normaDocumentos = new List<Tuple<int, float>>();
+                    List<Tuple<int, float,float>> normaDocumentos = new List<Tuple<int, float,float>>();
                     List<int> onlyDocsNorm = new List<int>();
                     int cantidadDistinctDocs = onlyDocs.Distinct().ToArray().Length;
                     normaDocumentos.Add(misDocs[0]);
@@ -116,7 +117,7 @@ namespace ConsoleApplication1
                         if (onlyDocsNorm.Contains(onlyDocs[i]))
                         {
                             int indice = onlyDocsNorm.IndexOf(onlyDocs[i]);
-                            normaDocumentos[indice] = Tuple.Create(normaDocumentos[indice].Item1, normaDocumentos[indice].Item2 + misDocs[i].Item2);
+                            normaDocumentos[indice] = Tuple.Create(normaDocumentos[indice].Item1, normaDocumentos[indice].Item2 + misDocs[i].Item2, normaDocumentos[indice].Item3 + misDocs[i].Item3);
                             normalizedIndex++;
 
                         }
@@ -130,25 +131,23 @@ namespace ConsoleApplication1
                     }
 
                     for (int i = 0; i < normaDocumentos.Count; i++) {
-                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, (float)Math.Sqrt(normaDocumentos[i].Item2));
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, (float)Math.Sqrt(normaDocumentos[i].Item2), normaDocumentos[i].Item3);
                     }
-                    for (int i = 0; i < misDocs.Count; i++)
+
+                    for (int i = 0; i < normaDocumentos.Count; i++)
                     {
-                        misDocs[i] = Tuple.Create(misDocs[i].Item1, (float)Math.Sqrt(misDocs[i].Item2));
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, normaDocumentos[i].Item2, normaDocumentos[i].Item3/ normaDocumentos[i].Item2);
                     }
 
                     normaDocumentos.Sort();
-                    misDocs.Sort();
-
-                    List<float> simnilitudes = new List<float>();
 
 
 
-                    
-                    
-                    
+                    var newList = normaDocumentos.OrderByDescending(x => x.Item3).ToList();
 
-                    
+
+
+
 
 
 
