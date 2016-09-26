@@ -89,14 +89,21 @@ namespace ConsoleApplication1
                         normaConsulta += (float)Math.Pow(cons.Peso, 2);
                     }
                     normaConsulta = (float)Math.Sqrt((double)normaConsulta);
-
-                    List<int> docs = new List<int>();
-                    
+                    List<Tuple<int,float>> misDocs = new List<Tuple<int,float>>();
                     foreach (TerminoConsulta cons in consultas) {
-                        for (int i = 0; i < (cons.Docs.Length / 12;i++){
-                            
+                        for (int i = 0; i < (cons.Docs.Length / 12); i=i+12)
+                        {
+                            byte[] mydoc = new byte[4];
+                            byte[] myPeso = new byte[4];
+                            Array.Copy(cons.Docs,i,mydoc,0,4);
+                            Array.Copy(cons.Docs, i + 8,myPeso,0,4);
+                            int docId =BitConverter.ToInt32(mydoc,0);
+                            float peso = BitConverter.ToSingle(myPeso, 0);
+                            misDocs.Add(Tuple.Create(docId,peso));
                         }
+                            
                     }
+                    
 
                     
 
@@ -273,17 +280,19 @@ namespace ConsoleApplication1
   
 
             StreamReader sr = new StreamReader(strFilePath);
-
-
             while (!sr.EndOfStream)
+
             {
+
                 string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
-                if (rows.Length > 1) { 
-                DataRow dr = diccionarioTable.NewRow();
-                for (int i = 0; i < diccionarioTable.Columns.Count; i++)
-                {
+                
+                if (rows.Length > 1) {
+                    DataRow dr = diccionarioTable.NewRow();
+
+                    for (int i = 0; i < diccionarioTable.Columns.Count; i++)
+                    {
                     dr[i] = rows[i];
-                }
+                    }
                 diccionarioTable.Rows.Add(dr);
                 }
 
