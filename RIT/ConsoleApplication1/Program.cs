@@ -90,8 +90,9 @@ namespace ConsoleApplication1
                     }
                     normaConsulta = (float)Math.Sqrt((double)normaConsulta);
                     List<Tuple<int,float>> misDocs = new List<Tuple<int,float>>();
+                    List<int> onlyDocs = new List<int>();
                     foreach (TerminoConsulta cons in consultas) {
-                        for (int i = 0; i < (cons.Docs.Length / 12); i=i+12)
+                        for (int i = 0; i < (cons.Docs.Length); i=i+12)
                         {
                             byte[] mydoc = new byte[4];
                             byte[] myPeso = new byte[4];
@@ -99,10 +100,36 @@ namespace ConsoleApplication1
                             Array.Copy(cons.Docs, i + 8,myPeso,0,4);
                             int docId =BitConverter.ToInt32(mydoc,0);
                             float peso = BitConverter.ToSingle(myPeso, 0);
-                            misDocs.Add(Tuple.Create(docId,peso));
+                            onlyDocs.Add(docId);
+                            misDocs.Add(Tuple.Create(docId,(float)Math.Pow(peso,2)));
                         }
                             
                     }
+
+                    List<Tuple<int, float>> normaDocumentos = new List<Tuple<int, float>>();
+                    List<int> onlyDocsNorm = new List<int>();
+                    int cantidadDistinctDocs = onlyDocs.Distinct().ToArray().Length;
+                    normaDocumentos.Add(misDocs[0]);
+                    onlyDocsNorm.Add(misDocs[0].Item1);
+                    int normalizedIndex=1;
+                    for (int i = 1; i < onlyDocs.Count; i++) {
+                        if (onlyDocsNorm.Contains(onlyDocs[i]))
+                        {
+                            int indice = onlyDocsNorm.IndexOf(onlyDocs[i]);
+                            normaDocumentos[indice] = Tuple.Create(normaDocumentos[indice].Item1, normaDocumentos[indice].Item2 + misDocs[i].Item2);
+                                                 }
+                        else {
+                            normaDocumentos.Add(misDocs[normalizedIndex]);
+                            onlyDocsNorm.Add(misDocs[normalizedIndex].Item1);
+                            normalizedIndex++;
+
+                        }
+
+                    }
+                    
+
+                    
+                    
                     
 
                     
