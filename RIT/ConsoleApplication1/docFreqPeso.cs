@@ -11,6 +11,7 @@ namespace ConsoleApplication1
         private int docId;
         private List<int> freqs;
         private List<float> pesos;
+        private float norma;
         private int totalTerms;
 
         public docFreqPeso(List<string> terminos, XMLFile doc, int[] nsubi, int totalDocs)
@@ -22,7 +23,10 @@ namespace ConsoleApplication1
             this.calcularFreqs(terminos,doc);
             totalTerms = freqs.Sum();
             this.calcularPesos(nsubi,totalDocs);
-
+            foreach (float peso in pesos) {
+                Norma += (float)Math.Pow(peso,2);
+            }
+            Norma = (float) Math.Sqrt(Norma);
 
         }
 
@@ -65,7 +69,18 @@ namespace ConsoleApplication1
             }
         }
 
-        
+        public float Norma
+        {
+            get
+            {
+                return norma;
+            }
+
+            set
+            {
+                norma = value;
+            }
+        }
 
         public void calcularFreqs(List<String> terminos,XMLFile doc) {
             int counter = 0;

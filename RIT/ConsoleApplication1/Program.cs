@@ -131,7 +131,8 @@ namespace ConsoleApplication1
                     }
 
                     for (int i = 0; i < normaDocumentos.Count; i++) {
-                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, (float)Math.Sqrt(normaDocumentos[i].Item2), normaDocumentos[i].Item3);
+                        float myNorma = (float)documentosTable.Rows.Find(normaDocumentos[i].Item1).ItemArray[2];
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, (float)Math.Sqrt(normaDocumentos[i].Item2)*normaConsulta, normaDocumentos[i].Item3);
                     }
 
                     for (int i = 0; i < normaDocumentos.Count; i++)
@@ -153,7 +154,7 @@ namespace ConsoleApplication1
 
 
 
-                    System.Console.WriteLine("Done");
+                     System.Console.WriteLine("Done");
                 }
 
                 else if (command == "-ce")
@@ -226,6 +227,7 @@ namespace ConsoleApplication1
 
             documentosTable.Columns.Add("docID", typeof(int));
             documentosTable.Columns.Add("docPath", typeof(string));
+            documentosTable.Columns.Add("norma", typeof(float));
 
             diccionarioTable.Columns.Add("termino", typeof(string));
             diccionarioTable.Columns.Add("inicio", typeof(int));
@@ -240,8 +242,15 @@ namespace ConsoleApplication1
 
             foreach (XMLFile doc in docs)
             {
-                documentosTable.Rows.Add(doc.DocId, doc.FileName);
+                
+                foreach (docFreqPeso docNorma in matrizDocTerm)
+                {
+                    if (doc.DocId == docNorma.DocId) {
+                        documentosTable.Rows.Add(doc.DocId, doc.FileName,docNorma.Norma);
+                    }
+                }
             }
+            
 
             int termIndex = 0;
             int initPos = 0;
@@ -301,11 +310,12 @@ namespace ConsoleApplication1
                 object[] array = row.ItemArray;
                 for (i = 0; i < array.Length - 1; i++)
                 {
-                    swExtLogFile.Write(array[i].ToString() + ",");
+                    swExtLogFile.Write(array[i].ToString() + "|");
                 }
                 swExtLogFile.WriteLine(array[i].ToString());
             }
             swExtLogFile.Write("*****END OF DATA****" + DateTime.Now.ToString());
+
             swExtLogFile.Flush();
             swExtLogFile.Close();
 
@@ -326,7 +336,7 @@ namespace ConsoleApplication1
 
             {
 
-                string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
+                string[] rows = sr.ReadLine().Split('|');
                 
                 if (rows.Length > 1) {
                     DataRow dr = diccionarioTable.NewRow();
@@ -348,9 +358,13 @@ namespace ConsoleApplication1
         {
 
             DataTable documentosTable = new DataTable();
-
+            DataColumn[] keyColumns = new DataColumn[1];
             documentosTable.Columns.Add("docID", typeof(int));
+
             documentosTable.Columns.Add("docPath", typeof(string));
+            documentosTable.Columns.Add("norma", typeof(float));
+            keyColumns[0] = documentosTable.Columns["docID"];
+            documentosTable.PrimaryKey = keyColumns;
 
 
 
@@ -359,7 +373,7 @@ namespace ConsoleApplication1
 
             while (!sr.EndOfStream)
             {
-                string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
+                string[] rows = sr.ReadLine().Split('|');
                 if (rows.Length > 1)
                 {
                     DataRow dr = documentosTable.NewRow();

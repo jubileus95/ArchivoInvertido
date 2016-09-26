@@ -21,7 +21,7 @@ namespace ConsoleApplication1
             // Write the string to a file.
             System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\test.txt");
             file.WriteLine(lines);
-            print("creado");
+            //print("creado");
             file.Close();
          }
     }
