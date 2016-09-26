@@ -96,14 +96,13 @@ namespace ConsoleApplication1
                             byte[] mydoc = new byte[4];
                             byte[] myPeso = new byte[4];
                             Array.Copy(cons.Docs,i,mydoc,0,4);
-                            Array.Copy(cons.Docs,i+8,)
+                            Array.Copy(cons.Docs, i + 8,myPeso,0,4);
                             int docId =BitConverter.ToInt32(mydoc,0);
-                            float 
-                            misDocs
-
+                            float peso = BitConverter.ToSingle(myPeso, 0);
+                            misDocs.Add(Tuple.Create(docId,peso));
                         }
                             
-                       }
+                    }
                     
 
                     
@@ -281,17 +280,19 @@ namespace ConsoleApplication1
   
 
             StreamReader sr = new StreamReader(strFilePath);
-
-
             while (!sr.EndOfStream)
+
             {
+
                 string[] rows = Regex.Split(sr.ReadLine(), ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
-                if (rows.Length > 1) { 
-                Dor (int i = 0; i < diccionarioTable.Columns.Count; i++)
-                {ataRow dr = diccionarioTable.NewRow();
-                f
+                
+                if (rows.Length > 1) {
+                    DataRow dr = diccionarioTable.NewRow();
+
+                    for (int i = 0; i < diccionarioTable.Columns.Count; i++)
+                    {
                     dr[i] = rows[i];
-                }
+                    }
                 diccionarioTable.Rows.Add(dr);
                 }
 
