@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Createtxt.cs" />
     <Compile Include="TerminoConsulta.cs" />
     <Compile Include="docFreqPeso.cs" />
     <Compile Include="Program.cs" />
