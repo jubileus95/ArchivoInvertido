@@ -132,7 +132,7 @@ namespace ConsoleApplication1
 
                     for (int i = 0; i < normaDocumentos.Count; i++) {
                         float myNorma = (float)documentosTable.Rows.Find(normaDocumentos[i].Item1).ItemArray[2];
-                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, (float)Math.Sqrt(normaDocumentos[i].Item2)*normaConsulta, normaDocumentos[i].Item3);
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, myNorma*normaConsulta, normaDocumentos[i].Item3);
                     }
 
                     for (int i = 0; i < normaDocumentos.Count; i++)

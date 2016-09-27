@@ -1,0 +1,712 @@
+0|../../Flora-20160122\10-Quercus salicifolia Nee.xml|36,63869
+1|../../Flora-20160122\100-Cinnamomum tonduzii (Mez) Kosterm..xml|25,26316
+2|../../Flora-20160122\101-Cinnamomum triplinerve (Ruiz & Pav.) Kosterm..xml|31,11084
+3|../../Flora-20160122\102-Endichleria formosa A.C. Sm..xml|25,37664
+4|../../Flora-20160122\103-Gamanthera herrerae van der Werff.xml|26,24155
+5|../../Flora-20160122\104-Licaria brenesii W. C. Burger.xml|22,58443
+6|../../Flora-20160122\105-Licaria caribaea GÃ³mez-Laur. & Cascante.xml|18,29913
+7|../../Flora-20160122\106-Licaria excelsa Kosterm..xml|22,42734
+8|../../Flora-20160122\107-Licaria misantlae (Brandegee) Kosterm..xml|22,25394
+9|../../Flora-20160122\108-Licaria multinervis H. Kurz.xml|28,79819
+10|../../Flora-20160122\109-Licaria pergamentacea W. C. Burger.xml|22,94355
+11|../../Flora-20160122\11-Quercus sapotifolia Liebm..xml|39,25126
+12|../../Flora-20160122\110-Licaria sarapiquensis Hammel.xml|28,31977
+13|../../Flora-20160122\111-Licaria triandra (Sw.) Kosterm..xml|22,4739
+14|../../Flora-20160122\112-Litsea glaucescens Kunth.xml|26,53749
+15|../../Flora-20160122\113-Nectandra belizensis (Lundell) C. K. Allen.xml|25,99786
+16|../../Flora-20160122\114-Nectandra cissiflora Nees.xml|29,33798
+17|../../Flora-20160122\115-Nectandra cufodontisii (O. C. Schmidt) C. K. Allen.xml|24,81847
+18|../../Flora-20160122\116-Nectandra hihua (Ruiz & Pav.) Rohwer.xml|27,87792
+19|../../Flora-20160122\117-Nectandra hypoleuca Hammel.xml|29,40159
+20|../../Flora-20160122\118-Nectandra lineata (Kunth) Rohwer.xml|23,18076
+21|../../Flora-20160122\119-Nectandra longipetiolata van der Werff.xml|19,56285
+22|../../Flora-20160122\12-Abatia parviflora Ruiz & Pav..xml|26,54453
+23|../../Flora-20160122\120-Nectandra martinicensis Mez..xml|29,39873
+24|../../Flora-20160122\121-Nectandra membranacea (Sw.) Griseb..xml|30,23122
+25|../../Flora-20160122\122-Nectandra purpurea (Ruiz & Pav.) Mez.xml|26,50699
+26|../../Flora-20160122\123-Nectandra ramonensis Standl..xml|24,38851
+27|../../Flora-20160122\124-Nectandra reticulata (Ruiz & Pav.) Mez.xml|33,34688
+28|../../Flora-20160122\125-Nectandra salicina C. K. Allen.xml|28,40079
+29|../../Flora-20160122\126-Nectandra smithii C. K. Allen.xml|28,10946
+30|../../Flora-20160122\127-Nectandra turbacensis (Kunth) Nees.xml|27,2522
+31|../../Flora-20160122\128-Nectandra umbrosa (Kunth) Mez.xml|31,47406
+32|../../Flora-20160122\129-Ocotea atirrensis Mez & Donn. Sm..xml|25,89726
+33|../../Flora-20160122\13-Banara guianensis Aubl..xml|33,25091
+34|../../Flora-20160122\130-Ocotea atlantica van der Werff.xml|23,51991
+35|../../Flora-20160122\131-Ocotea aurantiodora (Ruiz & Pav.) Mez.xml|25,50477
+36|../../Flora-20160122\132-Ocotea austinii C. K. Allen.xml|19,61445
+37|../../Flora-20160122\133-Ocotea brenesii Standl..xml|19,76243
+38|../../Flora-20160122\134-Ocotea cernua (Nees) Mez.xml|22,2778
+39|../../Flora-20160122\135-Ocotea dendrodaphne Mez.xml|25,79401
+40|../../Flora-20160122\136-Ocotea dentata van der Werff.xml|27,30202
+41|../../Flora-20160122\137-Ocotea endresiana Mez.xml|25,42341
+42|../../Flora-20160122\138-Ocotea floribunda (Sw.) Mez.xml|21,56001
+43|../../Flora-20160122\139-Ocotea fulvescens Standl. & L. O. Williams.xml|30,79995
+44|../../Flora-20160122\14-Carpotroche platyptera Pittier.xml|37,56
+45|../../Flora-20160122\140-Ocotea glaucosericea Rohwer.xml|25,62227
+46|../../Flora-20160122\141-Ocotea gomezii W. C. Burger.xml|25,81272
+47|../../Flora-20160122\142-Ocotea haberi van der Werff.xml|24,2876
+48|../../Flora-20160122\143-Ocotea hartshorniana Hammel.xml|25,7177
+49|../../Flora-20160122\144-Ocotea helicterifolia (Meisn.) Hemsl..xml|24,11597
+50|../../Flora-20160122\145-Ocotea holdridgeana W. C. Burger.xml|18,78137
+51|../../Flora-20160122\146-Ocotea insularis (Meisn.) Mez.xml|27,3075
+52|../../Flora-20160122\147-Ocotea laetevirens Standl. & Steyerm..xml|24,83079
+53|../../Flora-20160122\148-Ocotea lentii W. C. Burger.xml|25,73229
+54|../../Flora-20160122\149-Ocotea leucoxylon (Sw.) Laness..xml|25,71791
+55|../../Flora-20160122\15-Casearia aculeata Jacq..xml|39,14328
+56|../../Flora-20160122\150-Ocotea macrantha van der Werff.xml|23,86791
+57|../../Flora-20160122\151-Ocotea macropoda (Kunth) Mez.xml|23,14564
+58|../../Flora-20160122\152-Ocotea meziana C. K. Allen.xml|25,55318
+59|../../Flora-20160122\153-Ocotea mollicella (S. F. Blake) van der Werff.xml|23,13333
+60|../../Flora-20160122\154-Ocotea mollifolia Mez & Pittier.xml|27,355
+61|../../Flora-20160122\155-Ocotea monteverdensis W. C. Burger.xml|22,43599
+62|../../Flora-20160122\156-Ocotea morae GÃ³mez-Laur..xml|27,01958
+63|../../Flora-20160122\157-Ocotea multiflora van der Werff.xml|26,60756
+64|../../Flora-20160122\158-Ocotea oblonga (Meisn.) Mez.xml|29,74355
+65|../../Flora-20160122\159-Ocotea paradoxa Mez.xml|19,85195
+66|../../Flora-20160122\16-Casearia arborea (Rich.) Urb..xml|37,14122
+67|../../Flora-20160122\160-Ocotea patula van der Werff.xml|25,87058
+68|../../Flora-20160122\161-Ocotea pentagona Mez.xml|30,94494
+69|../../Flora-20160122\162-Ocotea pharomachrosorum GÃ³mez-Laur..xml|24,02238
+70|../../Flora-20160122\163-Ocotea praetermissa van der Werff.xml|23,35108
+71|../../Flora-20160122\164-Ocotea pseudopalmana W. C. Burger.xml|26,43873
+72|../../Flora-20160122\165-Ocotea puberula (Rich.) Nees.xml|25,48792
+73|../../Flora-20160122\166-Ocotea pullifolia van der Werff.xml|30,94167
+74|../../Flora-20160122\167-Ocotea rivularis Standl. & L. O. Williams.xml|25,39782
+75|../../Flora-20160122\168-Ocotea rufescens van der Werff.xml|23,11121
+76|../../Flora-20160122\169-Ocotea sinuata (Mez) Rohwer.xml|28,41019
+77|../../Flora-20160122\17-Casearia arguta Kunth.xml|29,45556
+78|../../Flora-20160122\170-Ocotea stenoneura Mez & Pittier.xml|25,13024
+79|../../Flora-20160122\171-Ocotea tenera Mez & Donn. Sm..xml|22,59679
+80|../../Flora-20160122\172-Ocotea wedeliana C. K. Allen.xml|28,34468
+81|../../Flora-20160122\173-Ocotea valerioana (Standl.) W. C. Burger.xml|31,39606
+82|../../Flora-20160122\174-Ocotea valerioides W. C. Burger.xml|29,17752
+83|../../Flora-20160122\175-Ocotea veraguensis (Meisn.) Mez.xml|26,94914
+84|../../Flora-20160122\176-Ocotea viridiflora Lundell.xml|22,9839
+85|../../Flora-20160122\177-Ocotea whitei Woodson.xml|28,44629
+86|../../Flora-20160122\178-Persea americana Mill..xml|33,95506
+87|../../Flora-20160122\179-Persea albida Kosterm..xml|26,06706
+88|../../Flora-20160122\18-Casearia commersoniana Cambess.xml|29,61678
+89|../../Flora-20160122\180-Persea brenesii Standl..xml|30,17303
+90|../../Flora-20160122\181-Persea caerulea (Ruiz & Pav. ) Mez.xml|32,94796
+91|../../Flora-20160122\182-Persea cuneata Meisn..xml|21,38
+92|../../Flora-20160122\183-Persea donnell-smithii Mez.xml|20,55681
+93|../../Flora-20160122\184-Persea laevifolia van der Werff.xml|21,9322
+94|../../Flora-20160122\185-Persea obtusifolia L. E. Knopp.xml|25,16214
+95|../../Flora-20160122\186-Persea povedae W. C. Burger.xml|20,17662
+96|../../Flora-20160122\187-Persea pseudofasciculata L. E. Knopp.xml|20,17379
+97|../../Flora-20160122\188-Persea rigens C.K. Allen.xml|24,20354
+98|../../Flora-20160122\189-Persea schiedeana Nees.xml|27,88541
+99|../../Flora-20160122\19-Casearia coronata Standl. & L. O. Williams.xml|28,14896
+100|../../Flora-20160122\190-Persea silvatica van der Werff.xml|18,44983
+101|../../Flora-20160122\191-Persea veraguasensis Seem..xml|25,23678
+102|../../Flora-20160122\192-Pleurothyrium golfodulcense W. C. Burger & N. Zamora.xml|27,68914
+103|../../Flora-20160122\193-Pleurothyrium guindonii van der Werff.xml|19,11055
+104|../../Flora-20160122\194-Pleurothyrium hexaglandulosum van der Werff.xml|27,11203
+105|../../Flora-20160122\195-Pleurothyrium immersum van der Werff.xml|22,6682
+106|../../Flora-20160122\196-Pleurothyrium oblongum van der Werff.xml|19,74504
+107|../../Flora-20160122\197-Pleurothyrium palmanum (Mez & Donn. Sm.) Rohwer.xml|23,022
+108|../../Flora-20160122\198-Pleurothyrium pauciflorum van der Werff & Hammel.xml|20,41403
+109|../../Flora-20160122\199-Pleurothyrium trianae (Mez) Rohwer.xml|24,91834
+110|../../Flora-20160122\2-Lecointea amazonica Ducke.xml|32,83882
+111|../../Flora-20160122\20-Casearia corymbosa Kunth.xml|36,89665
+112|../../Flora-20160122\200-Povedadaphne quadriporata W. C. Burger.xml|29,9233
+113|../../Flora-20160122\201-Rhodostemonodaphne kunthiana (Nees) Rohwer.xml|33,141
+114|../../Flora-20160122\202-Williamodendron glaucophyllum (van der Werff) Kubitzki.xml|28,45282
+115|../../Flora-20160122\203-Couratari guianensis Aubl..xml|46,81497
+116|../../Flora-20160122\204-Couratari scottmori Prance.xml|51,23672
+117|../../Flora-20160122\205-Couroupita guianensis Aubl..xml|46,76385
+118|../../Flora-20160122\206-Couroupita nicaraguarensis DC..xml|46,5241
+119|../../Flora-20160122\207-Eschweilera aguilarii S. A. Mori.xml|31,24064
+120|../../Flora-20160122\208-Eschweilera biflava S. A. Mori.xml|48,84188
+121|../../Flora-20160122\209-Eschweilera calyculata Pittier.xml|48,35394
+122|../../Flora-20160122\21-Casearia hirsuta Sw..xml|31,33153
+123|../../Flora-20160122\210-Eschweilera costaricensis S. A. Mori.xml|43,29155
+124|../../Flora-20160122\211-Eschweilera collinsii Pittier.xml|36,03398
+125|../../Flora-20160122\212-Eschweilera pittieri R. Knuth.xml|44,02242
+126|../../Flora-20160122\213-Grias cauliflora L..xml|51,17348
+127|../../Flora-20160122\214-Gustavia brachycarpa Pittier.xml|31,09019
+128|../../Flora-20160122\215-Lecythis ampla Miers.xml|49,74807
+129|../../Flora-20160122\216-Lecythis mesophylla S. A. Mori.xml|38,15199
+130|../../Flora-20160122\217-Buddleja nitida Benth..xml|36,84017
+131|../../Flora-20160122\218-Buddleja skutchii C. V. Morton.xml|38,58194
+132|../../Flora-20160122\219-Peltanthera floribunda Benth..xml|32,89433
+133|../../Flora-20160122\22-Casearia praecox Griseb..xml|28,72747
+134|../../Flora-20160122\220-Gaiadendron punctatum (Ruiz & Pav.) G. Don.xml|32,13941
+135|../../Flora-20160122\221-Lafoensia punicifolia DC..xml|38,07824
+136|../../Flora-20160122\222-Magnolia panamensis A. VÃ¡zquez & H. H. Iltis.xml|47,16191
+137|../../Flora-20160122\223-Magnolia poasana (Pittier).xml|45,20472
+138|../../Flora-20160122\224-Magnolia sororum Seibert.xml|46,62177
+139|../../Flora-20160122\225-Talauma gloriensis Pittier.xml|49,89177
+140|../../Flora-20160122\226-Bunchosia costaricensis Rose.xml|35,86278
+141|../../Flora-20160122\227-Bunchosia dwyeri Cuatrec. & Croat.xml|33,75847
+142|../../Flora-20160122\228-Bunchosia macrophylla Rose.xml|41,96819
+143|../../Flora-20160122\229-Bunchosia nitida Rose.xml|40,36993
+144|../../Flora-20160122\23-Casearia standleyana Sleumer.xml|22,05417
+145|../../Flora-20160122\230-Bunchosia polystachia (Andrews) DC..xml|29,21787
+146|../../Flora-20160122\231-Bunchosia ursana W. R. Anderson.xml|29,9633
+147|../../Flora-20160122\232-Bunchosia veluticarpa W. R. Anderson.xml|35,70108
+148|../../Flora-20160122\233-Byrsonima arthropoda A. Juss..xml|31,38421
+149|../../Flora-20160122\234-Byrsonima crassifolia (L.) Kunth.xml|38,42574
+150|../../Flora-20160122\235-Byrsonima herrerae W. R. Anderson.xml|29,43929
+151|../../Flora-20160122\236-Lophanthera hammelii W.R. Anderson.xml|43,51865
+152|../../Flora-20160122\237-Malpighia albiflora (Cuatrec.) Cuatrec..xml|33,32373
+153|../../Flora-20160122\238-Malpighia glabra L..xml|41,42951
+154|../../Flora-20160122\239-Malpighia stevensii W. R. Anderson.xml|40,2101
+155|../../Flora-20160122\24-Casearia stjohnii I. M. Johnst..xml|31,81536
+156|../../Flora-20160122\240-Spachea correae Cuatrec. & Croat.xml|48,07712
+157|../../Flora-20160122\241-Alchorneopsis floribunda.xml|28,1957
+158|../../Flora-20160122\242-Viburnum costaricanum.xml|30,80006
+159|../../Flora-20160122\243-Viburnum stellatotomentosum.xml|32,26918
+160|../../Flora-20160122\244-Viburnum venustum.xml|29,10155
+161|../../Flora-20160122\245-Pourouma minor.xml|32,4299
+162|../../Flora-20160122\246-Cassine xylocarpa.xml|30,79943
+163|../../Flora-20160122\247-Crossopetalum enervium.xml|24,57211
+164|../../Flora-20160122\248-Crossopetalum parviflorum.xml|30,64639
+165|../../Flora-20160122\249-Crossopetalum tonduzii.xml|23,4693
+166|../../Flora-20160122\25-Casearia sylvestris Sw..xml|35,36598
+167|../../Flora-20160122\250-Euonymus costaricensis.xml|23,40705
+168|../../Flora-20160122\251-Gymnosporia haberiana.xml|25,62822
+169|../../Flora-20160122\252-Maytenus grisea.xml|27,31965
+170|../../Flora-20160122\253-Maytenus guyanensis.xml|25,14287
+171|../../Flora-20160122\254-Maytenus recondita.xml|28,24648
+172|../../Flora-20160122\255-Maytenus woodsonii.xml|30,76136
+173|../../Flora-20160122\256-Microtropis occidentalis.xml|26,69933
+174|../../Flora-20160122\257-Perrottetia longistylis.xml|22,79468
+175|../../Flora-20160122\258-Perrottetia multiflora.xml|22,8087
+176|../../Flora-20160122\259-Perrottetia sessiliflora.xml|21,60339
+177|../../Flora-20160122\26-Casearia tacanensis Lundell.xml|32,18542
+178|../../Flora-20160122\260-Schaefferia frutescens.xml|21,03216
+179|../../Flora-20160122\261-Wimmeria bartlettii.xml|29,63289
+180|../../Flora-20160122\262-Wimmeria sternii.xml|24,00942
+181|../../Flora-20160122\263-Maytenus segoviarum.xml|22,64351
+182|../../Flora-20160122\264-Zinowiewia integerrima.xml|27,76059
+183|../../Flora-20160122\265-Hedyosmum bonplandianum Aguillo.xml|34,90718
+184|../../Flora-20160122\266-Hedyosmum brenesii.xml|30,56242
+185|../../Flora-20160122\267-Hedyosmum costaricense Aguillo.xml|31,06878
+186|../../Flora-20160122\268-Hedyosmum goudotianum Aguillo.xml|33,95943
+187|../../Flora-20160122\269-Hedyosmum mexicanum.xml|38,06296
+188|../../Flora-20160122\27-Casearia tremula (Griseb.) Griseb. ex W. Wright.xml|39,67
+189|../../Flora-20160122\270-Hedyosmum scaberrimum.xml|38,79467
+190|../../Flora-20160122\271-Chrysobalanus icaco Icaco.xml|30,34682
+191|../../Flora-20160122\272-Couepia platycalyx.xml|28,80814
+192|../../Flora-20160122\273-Couepia polyandra.xml|29,94758
+193|../../Flora-20160122\274-Hirtella americana Garrapatilla.xml|22,44761
+194|../../Flora-20160122\275-Hirtella guatemalensis.xml|28,26461
+195|../../Flora-20160122\276-Hirtella lemsii.xml|26,34867
+196|../../Flora-20160122\277-Hirtella media.xml|21,93206
+197|../../Flora-20160122\278-Hirtella papillata.xml|27,43587
+198|../../Flora-20160122\279-Hirtella racemosa var. racemosa.xml|25,44532
+199|../../Flora-20160122\28-Changiodendron mexicanum T. Wentd..xml|40,37524
+200|../../Flora-20160122\280-Hirtella triandra.xml|25,72166
+201|../../Flora-20160122\281-Hirtella trichotoma.xml|25,09243
+202|../../Flora-20160122\282-Hirtella tubiflora.xml|21,40462
+203|../../Flora-20160122\283-Licania affinis.xml|28,31128
+204|../../Flora-20160122\284-_Licania arborea Alcornoque, Roble blanco_.xml|31,16247
+205|../../Flora-20160122\285-Licania belloi.xml|32,43128
+206|../../Flora-20160122\286-Licania corniculata Zapote.xml|31,28764
+207|../../Flora-20160122\287-Licania costaricensis.xml|24,00572
+208|../../Flora-20160122\288-Licania diegogomezii.xml|33,21142
+209|../../Flora-20160122\289-Licania glabriflora.xml|23,21499
+210|../../Flora-20160122\29-Hasseltia allenii Hammel & Grayum ex M. H. Alford.xml|25,56734
+211|../../Flora-20160122\290-Licania hypoleuca Cenizo.xml|27,06746
+212|../../Flora-20160122\291-Licania jefensis.xml|25,09752
+213|../../Flora-20160122\292-Licania kallunkii.xml|32,28331
+214|../../Flora-20160122\293-Licania kunthiana.xml|37,11291
+215|../../Flora-20160122\294-Licania micrantha.xml|28,48022
+216|../../Flora-20160122\295-Licania operculipetala.xml|25,47647
+217|../../Flora-20160122\296-Licania platypus.xml|34,08819
+218|../../Flora-20160122\297-Licania riverae.xml|28,32451
+219|../../Flora-20160122\298-Licania sparsipilis.xml|26,9297
+220|../../Flora-20160122\299-Licania stevensii.xml|26,10467
+221|../../Flora-20160122\3-Quercus benthamii A. DC..xml|34,11662
+222|../../Flora-20160122\30-Hasseltia floribunda Kunth.xml|34,18873
+223|../../Flora-20160122\300-Maranthes panamensis.xml|30,91753
+224|../../Flora-20160122\301-Parinari excelsa.xml|34,5815
+225|../../Flora-20160122\302-Parinari parvifolia.xml|29,34979
+226|../../Flora-20160122\303-_Hirtella racemosa var. hexandra Murta, Serrecio_.xml|23,66582
+227|../../Flora-20160122\304-Clusia palmana.xml|30,39671
+228|../../Flora-20160122\305-Clethra costaricensis.xml|25,90827
+229|../../Flora-20160122\306-Clethra gelida.xml|30,64823
+230|../../Flora-20160122\307-Clethra pyrogena.xml|25,07963
+231|../../Flora-20160122\308-Clethra suaveolens.xml|20,95371
+232|../../Flora-20160122\309-Calophyllum brasiliense.xml|25,01224
+233|../../Flora-20160122\31-Hasseltia guatemalensis Warb..xml|32,10614
+234|../../Flora-20160122\310-Calophyllum inophyllum.xml|32,68009
+235|../../Flora-20160122\311-Calophyllum longifolium.xml|25,48674
+236|../../Flora-20160122\312-Chrysochlamys allenii.xml|27,52522
+237|../../Flora-20160122\313-Chrysochlamys glauca.xml|25,62502
+238|../../Flora-20160122\314-Chrysochlamys grandifolia.xml|28,51692
+239|../../Flora-20160122\315-Chrysochlamys nicaraguensis.xml|25,21906
+240|../../Flora-20160122\316-Tovomita stylosa.xml|23,92927
+241|../../Flora-20160122\317-Chrysochlamys psychotriifolia.xml|27,5834
+242|../../Flora-20160122\318-Chrysochlamys psychotriifolia.xml|27,5834
+243|../../Flora-20160122\319-Chrysochlamys silvicola.xml|23,52902
+244|../../Flora-20160122\32-Hasseltiopsis dioica (Benth.) Sleumer.xml|30,41609
+245|../../Flora-20160122\320-Chrysochlamys skutchii.xml|23,28027
+246|../../Flora-20160122\321-Chrysochlamys tenuis.xml|26,33364
+247|../../Flora-20160122\322-Clusia croatii.xml|29,91845
+248|../../Flora-20160122\323-Clusia rosea Copey.xml|27,44662
+249|../../Flora-20160122\324-Clusia rotundata Copey.xml|28,90043
+250|../../Flora-20160122\325-Clusia salvinii.xml|31,4132
+251|../../Flora-20160122\326-Clusia torresii.xml|33,37039
+252|../../Flora-20160122\327-Clusia valerioides.xml|30,84283
+253|../../Flora-20160122\328-Dystovomita paniculata.xml|32,53514
+254|../../Flora-20160122\329-Garcinia intermedia.xml|24,2896
+255|../../Flora-20160122\33-Homalium guianense (Aubl.) Oken.xml|27,92062
+256|../../Flora-20160122\330-Garcinia macrophylla.xml|22,10798
+257|../../Flora-20160122\331-Garcinia madruno.xml|35,16861
+258|../../Flora-20160122\332-Garcinia magnifolia.xml|28,9741
+259|../../Flora-20160122\333-Garcinia mangostana.xml|35,27319
+260|../../Flora-20160122\334-Tovomita weddelliana.xml|30,80424
+261|../../Flora-20160122\335-Mammea americana.xml|36,9769
+262|../../Flora-20160122\336-Marila jefensis.xml|25,99181
+263|../../Flora-20160122\337-Marila laxiflora.xml|30,80683
+264|../../Flora-20160122\338-Marila pluricostata.xml|29,86355
+265|../../Flora-20160122\339-Symphonia globulifera.xml|31,93036
+266|../../Flora-20160122\34-Homalium racemosum Jacq..xml|23,88476
+267|../../Flora-20160122\340-Tovomita longifolia.xml|29,63106
+268|../../Flora-20160122\341-Vismia baccifera.xml|31,43889
+269|../../Flora-20160122\342-Vismia billbergiana.xml|32,55954
+270|../../Flora-20160122\343-Vismia macrophylla.xml|31,2505
+271|../../Flora-20160122\344-Buchenavia costaricensis.xml|25,98804
+272|../../Flora-20160122\345-Buchenavia tetraphylla.xml|30,01891
+273|../../Flora-20160122\346-Conocarpus erecta.xml|38,33802
+274|../../Flora-20160122\347-Terminalia amazonia.xml|36,42977
+275|../../Flora-20160122\348-Terminalia catappa.xml|31,30364
+276|../../Flora-20160122\349-Terminalia oblonga.xml|30,21149
+277|../../Flora-20160122\35-Laetia procera (Poepp.) Eichler.xml|33,91618
+278|../../Flora-20160122\350-Laguncularia racemosa.xml|32,7612
+279|../../Flora-20160122\351-Terminalia bucidoides.xml|33,22338
+280|../../Flora-20160122\352-Cornus disciflora.xml|33,01196
+281|../../Flora-20160122\353-Cornus peruviana.xml|27,69552
+282|../../Flora-20160122\354-Nyssa talamancana.xml|33,30415
+283|../../Flora-20160122\355-Weinmannia laurina.xml|21,32136
+284|../../Flora-20160122\356-Weinmannia karsteniana.xml|23,44459
+285|../../Flora-20160122\357-Weinmannia wercklei.xml|26,83512
+286|../../Flora-20160122\358-Dichapetalum axillare.xml|34,21133
+287|../../Flora-20160122\359-Dichapetalum brenesii.xml|24,5709
+288|../../Flora-20160122\36-Laetia thamnia L..xml|36,16678
+289|../../Flora-20160122\360-Dichapetalum donnellsmithii.xml|26,90677
+290|../../Flora-20160122\361-Dichapetalum morenoi.xml|28,01185
+291|../../Flora-20160122\362-Dichapetalum nevermannianum.xml|26,15436
+292|../../Flora-20160122\363-Stephanopodium costaricense.xml|29,46619
+293|../../Flora-20160122\364-Tapura guianensis.xml|23,78824
+294|../../Flora-20160122\365-Curatella americana.xml|32,27798
+295|../../Flora-20160122\366-Diospyros conzatii.xml|23,24073
+296|../../Flora-20160122\367-Diospyros digyna.xml|30,54719
+297|../../Flora-20160122\368-Diospyros discolor.xml|35,06459
+298|../../Flora-20160122\369-Diospyros hartmanniana.xml|24,91878
+299|../../Flora-20160122\37-Lindackeria laurina C. Presl.xml|43,71675
+300|../../Flora-20160122\370-Diospyros panamense.xml|25,68792
+301|../../Flora-20160122\371-Diospyros salicifolia.xml|24,62584
+302|../../Flora-20160122\372-Elaeagnus parvifolia.xml|27,67511
+303|../../Flora-20160122\373-Sloanea ampla.xml|38,13123
+304|../../Flora-20160122\374-Sloanea brachytepala.xml|29,06701
+305|../../Flora-20160122\375-Sloanea brenesii.xml|33,55116
+306|../../Flora-20160122\376-Sloanea faginea.xml|29,09249
+307|../../Flora-20160122\377-Sloanea geniculata.xml|33,33891
+308|../../Flora-20160122\378-Sloanea guapilensis.xml|33,60594
+309|../../Flora-20160122\379-Sloanea guianensis.xml|27,92701
+310|../../Flora-20160122\38-Lunania mexicana Brandegee.xml|33,75811
+311|../../Flora-20160122\380-Sloanea laevigata.xml|30,5788
+312|../../Flora-20160122\381-Sloanea latistipula.xml|26,61165
+313|../../Flora-20160122\382-Sloanea laurifolia.xml|25,15344
+314|../../Flora-20160122\383-Sloanea ligulata.xml|34,46883
+315|../../Flora-20160122\384-Alchornea grandis.xml|24,49155
+316|../../Flora-20160122\385-Sloanea longipes.xml|23,81832
+317|../../Flora-20160122\386-Sloanea marcescens.xml|30,94492
+318|../../Flora-20160122\387-Sloanea medusula.xml|37,44576
+319|../../Flora-20160122\388-Sloanea meianthera.xml|30,42836
+320|../../Flora-20160122\389-Sloanea obtusifolia.xml|29,87802
+321|../../Flora-20160122\39-Lunania parviflora Spruce ex Benth..xml|35,32946
+322|../../Flora-20160122\390-Alchornea latifolia.xml|28,78525
+323|../../Flora-20160122\391-Sloanea petenensis.xml|27,16442
+324|../../Flora-20160122\392-Sloanea picapica.xml|29,37577
+325|../../Flora-20160122\393-Sloanea pilosa.xml|31,02316
+326|../../Flora-20160122\394-Sloanea rugosa.xml|31,51354
+327|../../Flora-20160122\395-Sloanea subsphaerocarpa.xml|31,3602
+328|../../Flora-20160122\396-Cnidoscolus tubulosus.xml|32,83596
+329|../../Flora-20160122\397-Sloanea sulcata.xml|34,91434
+330|../../Flora-20160122\398-Sloanea terniflora.xml|31,81063
+331|../../Flora-20160122\399-Sloanea tuerckheimii.xml|34,09988
+332|../../Flora-20160122\4-Quercus bumelioides Liebm..xml|37,56277
+333|../../Flora-20160122\40-Macrohasseltia macroterantha (Standl. & L. O. Williams) L. O. Williams.xml|40,34902
+334|../../Flora-20160122\400-Sloanea zuliaensis.xml|33,70955
+335|../../Flora-20160122\401-Comarostaphylis arbutoides.xml|25,8146
+336|../../Flora-20160122\402-Vaccinium consanguineum.xml|22,66293
+337|../../Flora-20160122\403-Erythroxylum citrifolium.xml|24,57422
+338|../../Flora-20160122\404-Erythroxylum fimbriatum.xml|24,88052
+339|../../Flora-20160122\405-Erythroxylum havanense.xml|22,95043
+340|../../Flora-20160122\406-Erythroxylum macrophyllum.xml|27,57003
+341|../../Flora-20160122\407-Erythroxylum rotundifolium.xml|28,96058
+342|../../Flora-20160122\408-Acalypha diversifolia.xml|23,91293
+343|../../Flora-20160122\409-Actinostemon caribaeus.xml|23,61016
+344|../../Flora-20160122\41-Mayna odorata Aubl..xml|40,27905
+345|../../Flora-20160122\410-Adelia triloba.xml|31,25418
+346|../../Flora-20160122\411-Alchornea costaricensis.xml|24,20684
+347|../../Flora-20160122\412-Alchornea glandulosa.xml|25,54656
+348|../../Flora-20160122\413-Alchornea triplinervia.xml|23,65682
+349|../../Flora-20160122\414-Amanoa guianensis.xml|29,7882
+350|../../Flora-20160122\415-Aparisthmium cordatum.xml|31,85793
+351|../../Flora-20160122\416-Bernardia nicaraguensis.xml|37,12103
+352|../../Flora-20160122\417-Cleidion castaneifolium.xml|31,16126
+353|../../Flora-20160122\418-Drypetes lateriflora.xml|25,6622
+354|../../Flora-20160122\419-Conceveiba pleiostemona.xml|30,24501
+355|../../Flora-20160122\42-Pleuranthodendron lindenii (Turcz.) Sleumer.xml|36,37232
+356|../../Flora-20160122\420-Croton billbergianus.xml|30,26406
+357|../../Flora-20160122\421-Croton corintensis.xml|21,64721
+358|../../Flora-20160122\422-Croton draco.xml|30,15842
+359|../../Flora-20160122\423-Croton hoffmannii.xml|28,68573
+360|../../Flora-20160122\424-Croton jimenezii.xml|28,14909
+361|../../Flora-20160122\425-Croton lanjouwensis.xml|22,41622
+362|../../Flora-20160122\426-Croton megistocarpus.xml|31,25627
+363|../../Flora-20160122\427-Croton mexicanus.xml|30,11509
+364|../../Flora-20160122\428-Croton niveus.xml|34,04154
+365|../../Flora-20160122\429-Croton schiedeanus.xml|34,25268
+366|../../Flora-20160122\43-Prockia costaricensis Standl..xml|26,14742
+367|../../Flora-20160122\430-Croton skutchii.xml|29,90365
+368|../../Flora-20160122\431-Croton speciosus.xml|23,24435
+369|../../Flora-20160122\432-Croton tonduzii.xml|29,40184
+370|../../Flora-20160122\433-Croton watsonii.xml|27,04149
+371|../../Flora-20160122\434-Drypetes brownii.xml|25,74933
+372|../../Flora-20160122\435-Drypetes standleyi.xml|26,99369
+373|../../Flora-20160122\436-Euphorbia cotinifolia.xml|30,78803
+374|../../Flora-20160122\437-Euphorbia leucocephala.xml|27,7678
+375|../../Flora-20160122\438-Euphorbia schlechtendalii.xml|36,35751
+376|../../Flora-20160122\439-Garcia nutans.xml|32,34438
+377|../../Flora-20160122\44-Prockia crucis P. Browne ex L..xml|44,26121
+378|../../Flora-20160122\440-Gymnanthes riparia.xml|32,26421
+379|../../Flora-20160122\441-Hippomane mancinella.xml|29,87768
+380|../../Flora-20160122\442-Hura crepitans.xml|40,76908
+381|../../Flora-20160122\443-Hyeronima alchorneoides.xml|31,47212
+382|../../Flora-20160122\444-Hyeronima oblonga.xml|23,75118
+383|../../Flora-20160122\445-Jatropha costaricensis.xml|29,12019
+384|../../Flora-20160122\446-Mabea excelsa.xml|26,31294
+385|../../Flora-20160122\447-Mabea klugii.xml|27,4863
+386|../../Flora-20160122\448-Mabea montana.xml|28,36948
+387|../../Flora-20160122\449-Mabea occidentalis.xml|28,64917
+388|../../Flora-20160122\45-Ryania speciosa Vahl.xml|41,45256
+389|../../Flora-20160122\450-Margaritaria nobilis.xml|32,63795
+390|../../Flora-20160122\451-Pausandra trianae.xml|31,17268
+391|../../Flora-20160122\452-Pera arborea.xml|30,27551
+392|../../Flora-20160122\453-Pera oppositifolia.xml|42,09209
+393|../../Flora-20160122\454-Phyllanthus acuminatus.xml|22,23015
+394|../../Flora-20160122\455-Phyllanthus salviifolius.xml|24,92203
+395|../../Flora-20160122\456-Phyllanthus skutchii.xml|22,43027
+396|../../Flora-20160122\457-Richeria obovata.xml|23,94581
+397|../../Flora-20160122\458-Sagotia brachysepala.xml|30,64894
+398|../../Flora-20160122\459-Sapium allenii.xml|30,53412
+399|../../Flora-20160122\46-Tetrathylacium johansenii Standl..xml|30,93833
+400|../../Flora-20160122\460-Sapium glandulosum.xml|30,78008
+401|../../Flora-20160122\461-Sapium macrocarpum.xml|26,17849
+402|../../Flora-20160122\462-Sapium pachystachys.xml|26,8241
+403|../../Flora-20160122\463-Sapium rigidifolium.xml|22,50101
+404|../../Flora-20160122\464-Sebastiania pavoniana.xml|26,62896
+405|../../Flora-20160122\465-Tetrorchidium costaricense.xml|26,04831
+406|../../Flora-20160122\466-Tetrorchidium euryphyllum.xml|32,10485
+407|../../Flora-20160122\467-Tetrorchidium rotundatum.xml|27,09194
+408|../../Flora-20160122\468-Caryodendron angustifolium.xml|27,21244
+409|../../Flora-20160122\469-Croton tenuicaudatus.xml|25,23542
+410|../../Flora-20160122\47-Tetrathylacium macrophyllum Poepp..xml|32,93673
+411|../../Flora-20160122\470-Croton yucatanensis.xml|31,73943
+412|../../Flora-20160122\471-Euphorbia elata.xml|32,28169
+413|../../Flora-20160122\472-Phyllanthus mocinianus.xml|23,20183
+414|../../Flora-20160122\473-Sapium laurifolium.xml|26,10917
+415|../../Flora-20160122\474-Myriophyllum aquaticum.xml|64,52227
+416|../../Flora-20160122\475-Hamamelidaceae.xml|53,26801
+417|../../Flora-20160122\476-Gyrocarpus americanus.xml|20,75907
+418|../../Flora-20160122\477-Gyrocarpus jatrophifolius.xml|19,85355
+419|../../Flora-20160122\478-Klaprothia fasciculata.xml|30,63299
+420|../../Flora-20160122\479-Klaprothia mentzelioides.xml|34,82642
+421|../../Flora-20160122\48-Xylosma chlorantha Donn. Sm..xml|27,10981
+422|../../Flora-20160122\480-Mentzelia aspera.xml|33,98966
+423|../../Flora-20160122\481-Aiouea obscura.xml|20,22235
+424|../../Flora-20160122\482-Aiouea talamancensis.xml|23,40585
+425|../../Flora-20160122\483-Aiouea sp 1..xml|24,00679
+426|../../Flora-20160122\484-Aiouea sp 2..xml|25,77649
+427|../../Flora-20160122\485-Aiouea sp 3..xml|24,18311
+428|../../Flora-20160122\486-Aiouea sp 4..xml|22,01299
+429|../../Flora-20160122\487-Aniba.xml|37,08896
+430|../../Flora-20160122\488-Aniba cinnamomiflora.xml|20,82269
+431|../../Flora-20160122\489-Aniba venezuelana.xml|17,56783
+432|../../Flora-20160122\49-Xylosma flexuosa (Kunth) Hemsl..xml|33,15271
+433|../../Flora-20160122\490-Beilschmiedia.xml|42,06069
+434|../../Flora-20160122\491-Beilschmiedia alloiophylla.xml|28,63926
+435|../../Flora-20160122\492-Beilschmiedia brenesii.xml|24,31553
+436|../../Flora-20160122\493-Beilschmiedia costaricensis.xml|22,39424
+437|../../Flora-20160122\494-Beilschmiedia immersinervis.xml|22,6644
+438|../../Flora-20160122\495-Hernandia didymantha.xml|23,40235
+439|../../Flora-20160122\496-Nectandra lineata.xml|19,80534
+440|../../Flora-20160122\497-Hypericum jaramilloi.xml|26,49545
+441|../../Flora-20160122\498-Ruptiliocarpon caracolito.xml|89,4754
+442|../../Flora-20160122\499-Myriophyllum aquaticum.xml|64,52227
+443|../../Flora-20160122\5-Quercus corrugata Hook..xml|34,61767
+444|../../Flora-20160122\50-Xylosma hispidula Standl..xml|27,69572
+445|../../Flora-20160122\500-Hamamelidaceae.xml|53,26801
+446|../../Flora-20160122\501-Matudaea trinervia.xml|34,93444
+447|../../Flora-20160122\502-Molinadendron guatemalense.xml|40,3
+448|../../Flora-20160122\503-Hernandiaceae.xml|51,73015
+449|../../Flora-20160122\504-Gyrocarpus.xml|45,98771
+450|../../Flora-20160122\505-Hernandia.xml|53,13466
+451|../../Flora-20160122\506-Hernandia stenura.xml|28,21533
+452|../../Flora-20160122\507-Sparattanthelium amazonum.xml|37,79444
+453|../../Flora-20160122\508-Humiriaceae.xml|60,15188
+454|../../Flora-20160122\509-Humiriastrum diguense.xml|48,95948
+455|../../Flora-20160122\51-Xylosma horrida Rose.xml|24,11673
+456|../../Flora-20160122\510-Sacoglottis.xml|41,0103
+457|../../Flora-20160122\511-Sacoglottis holdridgei.xml|43,93449
+458|../../Flora-20160122\512-Sacoglottis trichogyna.xml|40,3868
+459|../../Flora-20160122\513-Sacoglottis sp A..xml|40,62899
+460|../../Flora-20160122\514-Vantanea.xml|42,85482
+461|../../Flora-20160122\515-Vantanea barbourii.xml|36,67982
+462|../../Flora-20160122\516-Vantanea occidentalis.xml|33,60426
+463|../../Flora-20160122\517-Prosopanche costaricensis.xml|74,78805
+464|../../Flora-20160122\518-Hydrangeaceae.xml|57,94814
+465|../../Flora-20160122\519-Hydrangea.xml|45,05446
+466|../../Flora-20160122\52-Xylosma intermedia (Seem.) Triana & Planch..xml|25,17422
+467|../../Flora-20160122\520-Hydrangea asterolasia.xml|35,84994
+468|../../Flora-20160122\521-Hydrangea diplostemona.xml|37,38858
+469|../../Flora-20160122\522-Hydrangea macrophylla.xml|34,81299
+470|../../Flora-20160122\523-Hydrangea peruviana.xml|32,53355
+471|../../Flora-20160122\524-Hydrangea steyermarkii.xml|30,61302
+472|../../Flora-20160122\525-Hypericum thesiifolium.xml|29,99653
+473|../../Flora-20160122\526-Philadelphus myrtoides.xml|48,36038
+474|../../Flora-20160122\527-Hydrophyllaceae.xml|60,28776
+475|../../Flora-20160122\528-Hydrolea.xml|44,07272
+476|../../Flora-20160122\529-Hydrolea elatior.xml|19,89188
+477|../../Flora-20160122\53-Xylosma oligandra Donn. Sm..xml|28,88357
+478|../../Flora-20160122\530-Hydrolea spinosa.xml|26,1095
+479|../../Flora-20160122\531-Wigandia urens.xml|43,95529
+480|../../Flora-20160122\532-Hypericaceae.xml|51,03911
+481|../../Flora-20160122\533-Hypericum.xml|29,31888
+482|../../Flora-20160122\534-Hypericum cardonae.xml|25,64577
+483|../../Flora-20160122\535-Hypericum costaricense.xml|25,52822
+484|../../Flora-20160122\536-Hypericum gnidioides.xml|32,69404
+485|../../Flora-20160122\537-Hypericum irazuense.xml|28,33971
+486|../../Flora-20160122\538-Vismia.xml|34,01152
+487|../../Flora-20160122\539-Vismia baccifera.xml|29,08531
+488|../../Flora-20160122\54-Xylosma panamensis Turcz..xml|27,50578
+489|../../Flora-20160122\540-Vismia billbergiana.xml|26,45091
+490|../../Flora-20160122\541-Vismia macrophylla.xml|30,26608
+491|../../Flora-20160122\542-Icacinaceae.xml|62,32281
+492|../../Flora-20160122\543-Calatola costaricensis.xml|44,28621
+493|../../Flora-20160122\544-Citronella costaricensis.xml|37,39729
+494|../../Flora-20160122\545-Dendrobangia boliviana.xml|38,94701
+495|../../Flora-20160122\546-Discophora guianensis.xml|31,80627
+496|../../Flora-20160122\547-Leretia cordata.xml|42,6904
+497|../../Flora-20160122\548-Beilschmiedia ovalis.xml|24,3779
+498|../../Flora-20160122\549-Mappia racemosa.xml|36,69073
+499|../../Flora-20160122\55-Xylosma quichensis Donn. Sm..xml|25,76653
+500|../../Flora-20160122\550-Metteniusa tessmanniana.xml|34,31647
+501|../../Flora-20160122\551-Oecopetalum greenmanii.xml|26,98526
+502|../../Flora-20160122\552-Juglandaceae.xml|59,40739
+503|../../Flora-20160122\553-Alfaroa costaricensis.xml|34,92846
+504|../../Flora-20160122\554-Alfaroa guanacastensis.xml|35,87722
+505|../../Flora-20160122\555-Alfaroa manningii.xml|31,91999
+506|../../Flora-20160122\556-Alfaroa williamsii.xml|33,17039
+507|../../Flora-20160122\557-Oreomunnea.xml|32,39907
+508|../../Flora-20160122\558-Oreomunnea mexicana.xml|24,2059
+509|../../Flora-20160122\559-Oreomunnea pterocarpa.xml|23,92945
+510|../../Flora-20160122\56-Xylosma velutina (Tul.) Triana & Planch..xml|27,07429
+511|../../Flora-20160122\560-Nasa.xml|44,29959
+512|../../Flora-20160122\561-Aiouea costaricensis.xml|27,13989
+513|../../Flora-20160122\562-Krameria.xml|70,7931
+514|../../Flora-20160122\563-Krameria ixine.xml|23,60305
+515|../../Flora-20160122\564-Krameria revoluta.xml|28,52088
+516|../../Flora-20160122\565-Lacistemataceae.xml|53,4643
+517|../../Flora-20160122\566-Lacistema aggregatum.xml|37,73312
+518|../../Flora-20160122\567-Lozania.xml|37,15788
+519|../../Flora-20160122\568-Lozania mutisiana.xml|25,79703
+520|../../Flora-20160122\569-Lozania pittieri.xml|28,50387
+521|../../Flora-20160122\57-Zuelania guidonia (Sw.) Britton & Millsp..xml|42,71167
+522|../../Flora-20160122\570-Lauraceae.xml|88,7494
+523|../../Flora-20160122\571-Aiouea.xml|40,41231
+524|../../Flora-20160122\572-Beilschmiedia pendula.xml|21,57269
+525|../../Flora-20160122\573-Beilschmiedia tilaranensis.xml|21,4444
+526|../../Flora-20160122\574-Beilschmiedia tovarensis.xml|22,83381
+527|../../Flora-20160122\575-Beilschmiedia sp 1..xml|25,3921
+528|../../Flora-20160122\576-Beilschmiedia sp 2..xml|25,13425
+529|../../Flora-20160122\577-Caryodaphnopsis burgeri.xml|36,01769
+530|../../Flora-20160122\578-Cassytha filiformis.xml|42,57878
+531|../../Flora-20160122\579-Cinnamomum.xml|41,95288
+532|../../Flora-20160122\58-Escallonia myrtilloides L. f..xml|34,6459
+533|../../Flora-20160122\580-Cinnamomum brenesii.xml|16,56964
+534|../../Flora-20160122\581-Cinnamomum chavarrianum.xml|19,15546
+535|../../Flora-20160122\582-Cinnamomum costaricanum.xml|19,75271
+536|../../Flora-20160122\583-Cinnamomum hammelianum.xml|24,5046
+537|../../Flora-20160122\584-Cinnamomum neurophyllum.xml|18,20165
+538|../../Flora-20160122\585-Cinnamomum tonduzii.xml|20,1228
+539|../../Flora-20160122\586-Cinnamomum triplinerve.xml|21,74109
+540|../../Flora-20160122\587-Cinnamomum sp 1..xml|17,47722
+541|../../Flora-20160122\588-Cryptocarya sp 1..xml|30,29942
+542|../../Flora-20160122\589-Endlicheria formosa.xml|37,52786
+543|../../Flora-20160122\59-Escallonia paniculata (Ruiz & Pav.) Roem. & Schult..xml|29,59881
+544|../../Flora-20160122\590-Gamanthera herrerae.xml|45,34447
+545|../../Flora-20160122\591-Licaria.xml|40,23687
+546|../../Flora-20160122\592-Licaria brenesii.xml|28,54373
+547|../../Flora-20160122\593-Licaria caribaea.xml|24,58801
+548|../../Flora-20160122\594-Licaria excelsa.xml|33,23656
+549|../../Flora-20160122\595-Licaria leonis.xml|26,87013
+550|../../Flora-20160122\596-Licaria misantlae.xml|29,89697
+551|../../Flora-20160122\597-Licaria multinervis.xml|26,49001
+552|../../Flora-20160122\598-Nectandra hypoleuca.xml|21,77142
+553|../../Flora-20160122\599-Licaria pergamentacea.xml|33,27926
+554|../../Flora-20160122\6-Quercus cortesii Liebm..xml|34,25828
+555|../../Flora-20160122\60-Matudaea trinervia Lundell.xml|43,00092
+556|../../Flora-20160122\600-Licaria sarapiquensis.xml|23,68219
+557|../../Flora-20160122\601-Licaria triandra.xml|34,02776
+558|../../Flora-20160122\602-Licaria sp 1..xml|26,05318
+559|../../Flora-20160122\603-Licaria sp 2..xml|24,50908
+560|../../Flora-20160122\604-Licaria sp 3..xml|30,22917
+561|../../Flora-20160122\605-Litsea glaucescens.xml|47,26264
+562|../../Flora-20160122\606-Nectandra.xml|41,72311
+563|../../Flora-20160122\607-Nectandra belizensis.xml|22,55411
+564|../../Flora-20160122\608-Nectandra cissiflora.xml|19,04226
+565|../../Flora-20160122\609-Nectandra cufodontisii.xml|20,97339
+566|../../Flora-20160122\61-Molinadendron guatemalense (Radlk. ex Harms) P.K. Endress.xml|39,27723
+567|../../Flora-20160122\610-Nectandra hihua.xml|23,60418
+568|../../Flora-20160122\611-Nectandra longipetiolata.xml|16,68027
+569|../../Flora-20160122\612-Nectandra martinicensis.xml|21,17125
+570|../../Flora-20160122\613-Nectandra membranacea.xml|24,87484
+571|../../Flora-20160122\614-Nectandra purpurea.xml|23,95093
+572|../../Flora-20160122\615-Nectandra ramonensis.xml|20,58627
+573|../../Flora-20160122\616-Nectandra reticulata.xml|30,82545
+574|../../Flora-20160122\617-Nectandra salicina.xml|17,41366
+575|../../Flora-20160122\618-Nectandra smithii.xml|21,25918
+576|../../Flora-20160122\619-Nectandra turbacensis.xml|20,1344
+577|../../Flora-20160122\62-Hernandia didymantha Donn. Sm..xml|23,91147
+578|../../Flora-20160122\620-Nectandra umbrosa.xml|21,57244
+579|../../Flora-20160122\621-Ocotea.xml|39,0669
+580|../../Flora-20160122\622-Ocotea atirrensis.xml|27,33668
+581|../../Flora-20160122\623-Ocotea atlantica.xml|26,27851
+582|../../Flora-20160122\624-Ocotea aurantiodora.xml|24,57735
+583|../../Flora-20160122\625-Ocotea austinii.xml|26,37173
+584|../../Flora-20160122\626-Ocotea brenesii.xml|26,98465
+585|../../Flora-20160122\627-Ocotea cernua.xml|23,8425
+586|../../Flora-20160122\628-Ocotea dendrodaphne.xml|23,76321
+587|../../Flora-20160122\629-Ocotea dentata.xml|24,44936
+588|../../Flora-20160122\63-Hernandia stenura Standl..xml|31,91858
+589|../../Flora-20160122\630-Ocotea endresiana.xml|30,41478
+590|../../Flora-20160122\631-Ocotea floribunda.xml|26,92787
+591|../../Flora-20160122\632-Nasa speciosa.xml|32,19017
+592|../../Flora-20160122\633-Ocotea fulvescens.xml|30,37681
+593|../../Flora-20160122\634-Ocotea glaucosericea.xml|31,27133
+594|../../Flora-20160122\635-Ocotea gomezii.xml|23,05657
+595|../../Flora-20160122\636-Ocotea guatemalensis.xml|32,1556
+596|../../Flora-20160122\637-Ocotea haberi.xml|33,3608
+597|../../Flora-20160122\638-Ocotea hartshorniana.xml|26,44687
+598|../../Flora-20160122\639-Ocotea helicterifolia.xml|24,93092
+599|../../Flora-20160122\64-Salacia petenensis Lundell.xml|32,07257
+600|../../Flora-20160122\640-Ocotea holdridgeana.xml|26,5382
+601|../../Flora-20160122\641-Ocotea insularis.xml|28,63369
+602|../../Flora-20160122\642-Ocotea laetevirens.xml|32,42447
+603|../../Flora-20160122\643-Ocotea lentii.xml|27,33708
+604|../../Flora-20160122\644-Ocotea leucoxylon.xml|34,18029
+605|../../Flora-20160122\645-Ocotea macrantha.xml|29,18715
+606|../../Flora-20160122\646-Ocotea macropoda.xml|26,80433
+607|../../Flora-20160122\647-Ocotea meziana.xml|25,42822
+608|../../Flora-20160122\648-Ocotea mollicella.xml|23,51501
+609|../../Flora-20160122\649-Ocotea mollifolia.xml|30,1571
+610|../../Flora-20160122\65-Semialarium mexicanum (Miers) Mennega.xml|33,48825
+611|../../Flora-20160122\650-Ocotea monteverdensis.xml|24,62329
+612|../../Flora-20160122\651-Ocotea morae.xml|28,15528
+613|../../Flora-20160122\652-Ocotea multiflora.xml|23,76202
+614|../../Flora-20160122\653-Ocotea oblonga.xml|26,31391
+615|../../Flora-20160122\654-Ocotea paradoxa.xml|20,89494
+616|../../Flora-20160122\655-Ocotea patula.xml|25,63133
+617|../../Flora-20160122\656-Ocotea pentagona.xml|27,05707
+618|../../Flora-20160122\657-Ocotea pharomachrosorum.xml|24,49459
+619|../../Flora-20160122\658-Ocotea pittieri.xml|23,59201
+620|../../Flora-20160122\659-Ocotea praetermissa.xml|21,07428
+621|../../Flora-20160122\66-Humiriastrum diguense Cuatrec..xml|39,13475
+622|../../Flora-20160122\660-Ocotea producta.xml|33,0264
+623|../../Flora-20160122\661-Ocotea pseudopalmana.xml|25,96199
+624|../../Flora-20160122\662-Ocotea puberula.xml|27,37687
+625|../../Flora-20160122\663-Ocotea pullifolia.xml|24,69195
+626|../../Flora-20160122\664-Ocotea rivularis.xml|25,88403
+627|../../Flora-20160122\665-Ocotea rufescens.xml|23,82939
+628|../../Flora-20160122\666-Ocotea sinuata.xml|26,63147
+629|../../Flora-20160122\667-Ocotea stenoneura.xml|28,11059
+630|../../Flora-20160122\669-Ocotea tonduzii.xml|24,29918
+631|../../Flora-20160122\67-Sacoglottis holdridgei Cuatrec..xml|43,26956
+632|../../Flora-20160122\670-Ocotea valerioana.xml|32,11919
+633|../../Flora-20160122\671-Ocotea valerioides.xml|26,40392
+634|../../Flora-20160122\672-Ocotea veraguensis.xml|26,44732
+635|../../Flora-20160122\673-Ocotea viridiflora.xml|29,20543
+636|../../Flora-20160122\674-Ocotea wedeliana.xml|24,80101
+637|../../Flora-20160122\675-Ocotea whitei.xml|26,87412
+638|../../Flora-20160122\676-Ocotea sp 1..xml|25,13734
+639|../../Flora-20160122\677-Ocotea sp 2..xml|29,01226
+640|../../Flora-20160122\678-Ocotea sp 3..xml|31,90613
+641|../../Flora-20160122\679-Ocotea sp 4..xml|21,73582
+642|../../Flora-20160122\68-Sacoglottis trichogyna Cuatrec..xml|39,7549
+643|../../Flora-20160122\680-Persea.xml|34,13878
+644|../../Flora-20160122\681-Persea albida.xml|26,38338
+645|../../Flora-20160122\682-Persea albiramea.xml|23,86267
+646|../../Flora-20160122\683-Persea americana.xml|26,66282
+647|../../Flora-20160122\684-Persea brenesii.xml|21,71167
+648|../../Flora-20160122\685-Lennoa madreporoides.xml|64,4324
+649|../../Flora-20160122\686-Lentibulariaceae.xml|70,13285
+650|../../Flora-20160122\687-Pinguicula crenatiloba.xml|46,40305
+651|../../Flora-20160122\688-Utricularia.xml|67,86482
+652|../../Flora-20160122\689-Utricularia amethystina.xml|49,7366
+653|../../Flora-20160122\69-Vantanea barbourii Standl..xml|35,91157
+654|../../Flora-20160122\690-Utricularia endresii.xml|59,95154
+655|../../Flora-20160122\691-Lennoa madreporoides.xml|64,4324
+656|../../Flora-20160122\692-Nasa triphylla.xml|35,44377
+657|../../Flora-20160122\693-Lentibulariaceae.xml|70,13285
+658|../../Flora-20160122\694-Pinguicula crenatiloba.xml|46,40305
+659|../../Flora-20160122\695-Utricularia.xml|67,86482
+660|../../Flora-20160122\696-Utricularia amethystina.xml|49,7366
+661|../../Flora-20160122\697-Utricularia endresii.xml|59,95154
+662|../../Flora-20160122\698-Utricularia foliosa.xml|54,78997
+663|../../Flora-20160122\699-Utricularia gibba.xml|57,96801
+664|../../Flora-20160122\7-Quercus costaricensis Liebm..xml|32,90492
+665|../../Flora-20160122\70-Vantanea occidentalis Cuatr..xml|31,4642
+666|../../Flora-20160122\700-Utricularia hydrocarpa.xml|59,08057
+667|../../Flora-20160122\701-Utricularia jamesoniana.xml|51,35522
+668|../../Flora-20160122\702-Utricularia myriocista.xml|51,36634
+669|../../Flora-20160122\703-Utricularia praetermissa.xml|54,03275
+670|../../Flora-20160122\704-Utricularia pusilla.xml|52,57648
+671|../../Flora-20160122\705-Utricularia unifolia.xml|47,41196
+672|../../Flora-20160122\706-Utricularia uxoris.xml|45,94678
+673|../../Flora-20160122\707-Linum.xml|52,20769
+674|../../Flora-20160122\708-Linum guatemalense.xml|29,23876
+675|../../Flora-20160122\709-Linum usitatissimum.xml|29,99426
+676|../../Flora-20160122\71-Wigandia urens (Ruiz & Pav.) Kunth.xml|38,46308
+677|../../Flora-20160122\710-Loasaceae.xml|62,41311
+678|../../Flora-20160122\711-Chichicaste grandis.xml|37,58537
+679|../../Flora-20160122\712-Gronovia scandens.xml|39,26352
+680|../../Flora-20160122\713-Klaprothia.xml|26,30621
+681|../../Flora-20160122\72-Calatola costaricensis Standl..xml|37,91014
+682|../../Flora-20160122\73-Citronella costaricensis (Donn. Sm.) R. A. Howard.xml|32,90268
+683|../../Flora-20160122\74-Dendrobangia boliviana Rusby.xml|38,28005
+684|../../Flora-20160122\75-Discophora guianensis Miers.xml|40,7186
+685|../../Flora-20160122\76-Mappia racemosa Jacq..xml|27,08686
+686|../../Flora-20160122\77-Metteniusa tessmanniana (Sleumer) Sleumer.xml|36,54856
+687|../../Flora-20160122\78-Oecopetalum greenmanii Standl. & Steyerm..xml|32,02142
+688|../../Flora-20160122\79-Lacistema aggregatum (Bergius) Rugby.xml|29,90303
+689|../../Flora-20160122\8-Quercus insignis M. Martens & Galeotti.xml|37,35679
+690|../../Flora-20160122\80-Lozania mutisiana Roem. & Schult..xml|30,1321
+691|../../Flora-20160122\81-Lozania pittieri (S. F. Blake) L. B. Sm..xml|22,75827
+692|../../Flora-20160122\82-Aiouea costaricensis (Mez) Kosterm.xml|18,66369
+693|../../Flora-20160122\83-Aiouea obscura van der Werff.xml|32,30639
+694|../../Flora-20160122\84-Aiouea talamancensis W. C. Burger.xml|21,40248
+695|../../Flora-20160122\85-Aniba venezuelana Mez..xml|22,88296
+696|../../Flora-20160122\86-Beilschmiedia alloiophylla (Rusby) Kosterm..xml|28,04847
+697|../../Flora-20160122\87-Beilschmiedia brenesii C. K. Allen.xml|23,89608
+698|../../Flora-20160122\88-Beilschmiedia costaricensis C. K. Allen.xml|21,29988
+699|../../Flora-20160122\89-Beilschmiedia immersinervis Sach. Nishida.xml|23,94102
+700|../../Flora-20160122\9-Quercus oleoides Schltdl. & Cham..xml|35,26336
+701|../../Flora-20160122\90-Beilschmiedia ovalis (S. F. Blake) C. K. Allen.xml|23,66898
+702|../../Flora-20160122\91-Beilschmiedia pendula (Sw.) Hemsl..xml|25,921
+703|../../Flora-20160122\92-Beilschmiedia tilaranensis Sach. Nishida.xml|24,21659
+704|../../Flora-20160122\93-Beilschmiedia tovarensis (Meisn.) Sach. Nishida.xml|27,21667
+705|../../Flora-20160122\94-Caryodaphnopsis burgeri N. Zamora & Poveda.xml|22,95131
+706|../../Flora-20160122\95-Cinnamomum brenesii (Standl.) Kosterm..xml|25,65096
+707|../../Flora-20160122\96-Cinnamomum chavarrianum (Hammel) Kosterm..xml|26,34295
+708|../../Flora-20160122\97-Cinnamomum costaricanum (Mez & Pittier) Kosterm..xml|27,1
+709|../../Flora-20160122\98-Cinnamomum hammelianum (W. C. Burger) Lorea-Hern. ex Gonz. Ram. & Poveda.xml|28,74768
+710|../../Flora-20160122\99-Cinnamomum neurophyllum (Mez & Pittier) Kosterm..xml|21,00594
+*****END OF DATA****26/09/2016 18:00:51
