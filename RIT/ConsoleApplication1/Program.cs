@@ -45,17 +45,21 @@ namespace ConsoleApplication1
 
                     DataTable diccionarioTable = cargarDiccionario(archivoInvertidoPath + "diccionario.txt");
                     DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
-
+                    String frase = null;
                     List<String> tempconsulta = new List<String>();
-
+                    bool isFrase = false;
                     for (int i = 3; i < args.Length; i++)
                     {
                         if (args[i][0] == '!')
                         {
+
+                            isFrase = true;
                             args[i] = args[i].Substring(1);
                             try
                             {
-                                tempconsulta.Add(args[i] + " " + args[i + 1]);
+                                frase = args[i] + " " + args[i + 1];
+                                tempconsulta.Add(args[i]);
+                                tempconsulta.Add(args[i + 1]);
                                 i++;
                             }
                             catch (System.IndexOutOfRangeException)
@@ -75,7 +79,7 @@ namespace ConsoleApplication1
                     for (int i = 0; i < tempconsulta.Count; i++) {
                         if (tempconsulta[i].Contains('*'))
                         {
-                            tempconsulta[i]=tempconsulta[i].Remove(tempconsulta[i].Count()-1, 1);
+                            tempconsulta[i] = tempconsulta[i].Remove(tempconsulta[i].Count() - 1, 1);
                             foreach (DataRow doc in diccionarioTable.Rows)
                             {
                                 if (doc.ItemArray[0].ToString().Contains(tempconsulta[i]))
@@ -114,9 +118,9 @@ namespace ConsoleApplication1
                         normaConsulta += (float)Math.Pow(cons.Peso, 2);
                     }
                     normaConsulta = (float)Math.Sqrt((double)normaConsulta);
-                    List<Tuple<int, float,float>> misDocs = new List<Tuple<int, float,float>>();
+                    List<Tuple<int, float, float>> misDocs = new List<Tuple<int, float, float>>();
                     List<int> onlyDocs = new List<int>();
-                    
+
                     foreach (TerminoConsulta cons in consultas) {
                         for (int i = 0; i < (cons.Docs.Length); i = i + 12)
                         {
@@ -127,12 +131,12 @@ namespace ConsoleApplication1
                             int docId = BitConverter.ToInt32(mydoc, 0);
                             float peso = BitConverter.ToSingle(myPeso, 0);
                             onlyDocs.Add(docId);
-                            misDocs.Add(Tuple.Create(docId, (float)Math.Pow(peso, 2),peso*cons.Peso));
+                            misDocs.Add(Tuple.Create(docId, (float)Math.Pow(peso, 2), peso * cons.Peso));
                         }
 
                     }
 
-                    List<Tuple<int, float,float>> normaDocumentos = new List<Tuple<int, float,float>>();
+                    List<Tuple<int, float, float>> normaDocumentos = new List<Tuple<int, float, float>>();
                     List<int> onlyDocsNorm = new List<int>();
                     int cantidadDistinctDocs = onlyDocs.Distinct().ToArray().Length;
                     normaDocumentos.Add(misDocs[0]);
@@ -157,12 +161,12 @@ namespace ConsoleApplication1
 
                     for (int i = 0; i < normaDocumentos.Count; i++) {
                         float myNorma = (float)documentosTable.Rows.Find(normaDocumentos[i].Item1).ItemArray[2];
-                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, myNorma*normaConsulta, normaDocumentos[i].Item3);
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, myNorma * normaConsulta, normaDocumentos[i].Item3);
                     }
 
                     for (int i = 0; i < normaDocumentos.Count; i++)
                     {
-                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, normaDocumentos[i].Item2, normaDocumentos[i].Item3/ normaDocumentos[i].Item2);
+                        normaDocumentos[i] = Tuple.Create(normaDocumentos[i].Item1, normaDocumentos[i].Item2, normaDocumentos[i].Item3 / normaDocumentos[i].Item2);
                     }
 
                     normaDocumentos.Sort();
@@ -172,16 +176,16 @@ namespace ConsoleApplication1
                     List<Tuple<int, float, float>> escalaf = normaDocumentos.OrderByDescending(x => x.Item3).ToList();
 
                     DataTable escalafon = new DataTable();
-                    escalafon.Columns.Add("posicion",typeof(int));
-                    escalafon.Columns.Add("docId",typeof(int));
+                    escalafon.Columns.Add("posicion", typeof(int));
+                    escalafon.Columns.Add("docId", typeof(int));
                     escalafon.Columns.Add("similitud", typeof(float));
                     escalafon.Columns.Add("taxon_name", typeof(string));
                     escalafon.Columns.Add("rank", typeof(string));
                     escalafon.Columns.Add("path", typeof(string));
 
                     DataColumn[] keyColumns = new DataColumn[1];
-                    keyColumns[0] = documentosTable.Columns["docID"];
-                    documentosTable.PrimaryKey = keyColumns;
+                    keyColumns[0] = escalafon.Columns["docID"];
+                    escalafon.PrimaryKey = keyColumns;
 
                     int posicion = 1;
 
@@ -189,7 +193,7 @@ namespace ConsoleApplication1
 
 
 
-                        string fileName = documentosTable.Rows.Find(pos.Item1).ItemArray[1].ToString() ;
+                        string fileName = documentosTable.Rows.Find(pos.Item1).ItemArray[1].ToString();
 
                         XmlDocument myDoc = new XmlDocument();
                         myDoc.Load(fileName);
@@ -198,8 +202,31 @@ namespace ConsoleApplication1
                         string rank = myDoc.SelectSingleNode("//@rank").Value;
                         string taxonName = myDoc.SelectSingleNode("//@taxon_name").Value;
 
-                        escalafon.Rows.Add(posicion,pos.Item1,pos.Item3,taxonName,rank,fileName);
+                        escalafon.Rows.Add(posicion, pos.Item1, pos.Item3, taxonName, rank, fileName);
                         posicion++;
+                    }
+                    DataTable escalafon2 = new DataTable();
+                    if (isFrase) {
+                        
+                        escalafon2.Columns.Add("posicion", typeof(int));
+                        escalafon2.Columns.Add("docId", typeof(int));
+                        escalafon2.Columns.Add("similitud", typeof(float));
+                        escalafon2.Columns.Add("taxon_name", typeof(string));
+                        escalafon2.Columns.Add("rank", typeof(string));
+                        escalafon2.Columns.Add("path", typeof(string));
+
+
+                        foreach (DataRow row in escalafon.Rows) {
+                            XmlDocument doc = new XmlDocument();
+                            doc.Load(row.ItemArray[5].ToString());
+
+                            string taxon_description = doc.SelectSingleNode("//@taxon_description").Value;
+                            string rank = doc.SelectSingleNode("//@rank").Value;
+                            string taxonName = doc.SelectSingleNode("//@taxon_name").Value;
+                            if (taxon_description.Contains(frase) || rank.Contains(frase) || taxonName.Contains(frase)) {
+                                escalafon2.Rows.Add(row.ItemArray);
+                            }
+                        }
                     }
                    
 

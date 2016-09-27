@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -35,7 +36,12 @@ namespace ConsoleApplication1
             this.taxonName = myDoc.SelectSingleNode("//@taxon_name").Value;
             dictioWords = new List<String>();
 
-            quitarAcentos();
+            description = RemoveDiacritics(description);
+
+            rank = RemoveDiacritics(rank);
+
+            taxonName = RemoveDiacritics(taxonName);
+
             quitarCaracteresEspeciales();
             indexTaxon();
             indexRank();
@@ -45,6 +51,31 @@ namespace ConsoleApplication1
             GC.Collect();
             counter++;
 
+        }
+        static string RemoveDiacritics(string text)
+        {
+            var stringBuilder = new StringBuilder();
+            foreach (var c in text)
+
+            {
+                if (c == 'ñ' || c == 'Ñ')
+                {
+                   stringBuilder.Append(c);
+                }
+
+                else
+                {
+                    var normalizedString = c.ToString().Normalize(NormalizationForm.FormD);
+                    foreach (var ch in normalizedString) {
+                        var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(ch);
+                        if (unicodeCategory != UnicodeCategory.NonSpacingMark) {
+                            stringBuilder.Append(ch);
+                        }
+                    }
+                }
+            }
+
+            return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
 
         public string TaxonName
@@ -158,19 +189,19 @@ namespace ConsoleApplication1
             return toDictionary.Length;
         }
 
-        public void quitarAcentos() { 
-            byte[] tempBytes;
-            tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(description);
-            string asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
-            description = asciiStr;
-            tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(taxonName);
-            asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
-            taxonName = asciiStr;
-            tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(rank);
-            asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
-            rank = asciiStr; 
+        //public void quitarAcentos() { 
+        //    byte[] tempBytes;
+        //    tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(description);
+        //    string asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
+        //    description = asciiStr;
+        //    tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(taxonName);
+        //    asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
+        //    taxonName = asciiStr;
+        //    tempBytes = System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes(rank);
+        //    asciiStr = System.Text.Encoding.UTF8.GetString(tempBytes);
+        //    rank = asciiStr; 
 
-        }
+        //}
 
         public void indexTaxon() {
 
@@ -179,6 +210,7 @@ namespace ConsoleApplication1
 
             foreach (char c in taxonName)
             {
+               
                 if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c == 'ñ' || c == 'Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }
@@ -224,6 +256,9 @@ namespace ConsoleApplication1
 
             foreach (char c in description)
             {
+                if (c == 'ñ') {
+                    System.Console.Write(c);
+                }
                 if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c=='ñ' || c=='Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }
