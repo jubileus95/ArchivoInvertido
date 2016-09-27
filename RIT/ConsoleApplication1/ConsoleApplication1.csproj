@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Flora-20160122\" />
+    <Folder Include="TP1-documentación\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

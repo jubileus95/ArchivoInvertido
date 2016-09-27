@@ -179,7 +179,7 @@ namespace ConsoleApplication1
 
             foreach (char c in taxonName)
             {
-                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ')
+                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c == 'ñ' || c == 'Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }
             }
@@ -203,7 +203,7 @@ namespace ConsoleApplication1
 
             foreach (char c in rank)
             {
-                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ')
+                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c == 'ñ' || c == 'Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }
             }
@@ -224,7 +224,7 @@ namespace ConsoleApplication1
 
             foreach (char c in description)
             {
-                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ')
+                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c=='ñ' || c=='Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }
             }

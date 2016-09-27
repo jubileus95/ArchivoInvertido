@@ -1,0 +1,173 @@
+
+========== Prueba 1 ===============
+
+Consulta: lustroso
+Encontrados 4 archivos:
+
+ 67-Sacoglottis holdridgei
+178-Persea americana
+201-Rhodostemonodaphne kunthiana
+240-Spachea correae
+
+========== Prueba 2 ===============
+
+Consulta: suborbiculares
+Encontrados 17 archivos:
+
+ 15-Casearia aculeata
+ 21-Casearia hirsuta
+ 24-Casearia stjohnii
+ 49-Xylosma flexuosa
+ 65-Semialarium mexicanum
+ 71-Wigandia urens
+ 90-Beilschmiedia ovalis
+141-Ocotea gomezii
+167-Ocotea rivularis
+178-Persea americana
+189-Persea schiedeana
+197-Pleurothyrium palmanum
+419-Conceveiba pleiostemona
+436-Euphorbia cotinifolia
+438-Euphorbia schlechtendalii
+472-Phyllanthus mocinianus
+632-Nasa speciosa
+
+========== Prueba 3 ===============
+
+Consulta: +lustroso -suborbiculares
+
+Los cuatro documentos que tienen lustroso deben aparecer en posiciones preferenciales.
+El documento 178-Persea americana, debe aparecer de primero ya que tiene ambos términos.
+
+Encontrados 20 archivos:
+
+178-Persea americana
+
+ 67-Sacoglottis holdridgei
+201-Rhodostemonodaphne kunthiana
+240-Spachea correae
+
+ 15-Casearia aculeata
+ 21-Casearia hirsuta
+ 24-Casearia stjohnii
+ 49-Xylosma flexuosa
+ 65-Semialarium mexicanum
+ 71-Wigandia urens
+ 90-Beilschmiedia ovalis
+141-Ocotea gomezii
+167-Ocotea rivularis
+189-Persea schiedeana
+197-Pleurothyrium palmanum
+419-Conceveiba pleiostemona
+436-Euphorbia cotinifolia
+438-Euphorbia schlechtendalii
+472-Phyllanthus mocinianus
+632-Nasa speciosa
+
+========== Prueba 4 ===============
+
+Consulta: reticulad*
+Encontrados 32 archivos:
+
+  2-Lecointea amazonica 
+ 25-Casearia sylvestris
+ 71-Wigandia urens
+ 78-Oecopetalum greenmanii
+ 88-Beilschmiedia costaricensis
+ 90-Beilschmiedia ovalis
+ 93-Beilschmiedia tovarensis
+119-Nectandra longipetiolata
+125-Nectandra salicina
+128-Nectandra umbrosa
+135-Ocotea dendrodaphne
+147-Ocotea laetevirens
+152-Ocotea meziana
+166-Ocotea pullifolia
+179-Persea albida
+180-Persea brenesii
+192-Pleurothyrium golfodulcense
+200-Povedadaphne quadriporata
+203-Couratari guianensis
+216-Lecythis mesophylla
+221-Lafoensia punicifolia
+223-Magnolia poasana
+225-Talauma gloriensis
+226-Bunchosia costaricensis
+229-Bunchosia nitida
+246-Cassine xylocarpa
+357-Weinmannia wercklei
+364-Tapura guianensis
+490-Beilschmiedia
+498-Ruptiliocarpon caracolito
+531-Wigandia urens
+538-Vismia
+
+========== Prueba 5 ===============
+
+Consulta: "Quercus cortesii
+Encontrado un archivo:
+
+6-Quercus cortesii
+
+========== Prueba 6 ===============
+
+Consulta: "Persea americana
+Encontrados 2 archivos:
+
+178-Persea americana
+683-Persea americana
+
+========== Prueba 7 ===============
+
+Consulta: lustroso +"Persea americana -"Sacoglottis holdridgei
+Se espera que "Persea americana" aparezca de primero en el escalafón y que "Sacoglottis holdridgei" aparezca de último.
+
+178-Persea americana
+
+201-Rhodostemonodaphne kunthiana
+240-Spachea correae
+
+ 67-Sacoglottis holdridgei
+
+========== Prueba 8 ===============
+
+Consulta: espiral*
+Encontrados 10 archivos:
+
+209-Eschweilera calyculata
+223-Magnolia poasana
+224-Magnolia sororum
+478-Klaprothia fasciculata
+543-Calatola costaricensis
+547-Leretia cordata
+551-Oecopetalum greenmanii
+570-Lauraceae
+685-Lennoa madreporoides
+691-Lennoa madreporoides
+
+========== Prueba 9 ===============
+
+Esta prueba se basa en el escalafón obtenido en la prueba 8.
+
+Consulta estructurada: hojas arrangement espiraladas
+Encontrados 6 archivos:
+
+543-Calatola costaricensis
+547-Leretia cordata
+551-Oecopetalum greenmanii
+570-Lauraceae
+685-Lennoa madreporoides
+691-Lennoa madreporoides
+
+========== Prueba 10 ===============
+
+Esta prueba se basa en el escalafón obtenido en la prueba 8.
+
+Consulta estructurada: hojas arrangement espiraladas , flores coloration blancas
+
+Encontrados 2 archivos:
+
+547-Leretia cordata
+570-Lauraceae
+
+

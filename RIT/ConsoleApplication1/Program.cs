@@ -39,8 +39,14 @@ namespace ConsoleApplication1
                 { //Consulta vectorial
 
                     String archivoInvertidoPath = args[1];
+
                     String prefijo = args[2];
-                    List<String> consulta = new List<String>();
+
+
+                    DataTable diccionarioTable = cargarDiccionario(archivoInvertidoPath + "diccionario.txt");
+                    DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
+
+                    List<String> tempconsulta = new List<String>();
 
                     for (int i = 3; i < args.Length; i++)
                     {
@@ -49,23 +55,42 @@ namespace ConsoleApplication1
                             args[i] = args[i].Substring(1);
                             try
                             {
-                                consulta.Add(args[i] + " " + args[i + 1]);
+                                tempconsulta.Add(args[i] + " " + args[i + 1]);
                                 i++;
                             }
                             catch (System.IndexOutOfRangeException)
                             {
-                                consulta.Add(args[i]);
+                                tempconsulta.Add(args[i]);
                             }
 
                         }
                         else {
-                            consulta.Add(args[i]);
+                            tempconsulta.Add(args[i]);
                         }
 
                     }
 
-                    DataTable diccionarioTable = cargarDiccionario(archivoInvertidoPath + "diccionario.txt");
-                    DataTable documentosTable = cargarDocumentos(archivoInvertidoPath + "documentos.txt");
+                    List<String> consulta = new List<String>();
+
+                    for (int i = 0; i < tempconsulta.Count; i++) {
+                        if (tempconsulta[i].Contains('*'))
+                        {
+                            tempconsulta[i]=tempconsulta[i].Remove(tempconsulta[i].Count()-1, 1);
+                            foreach (DataRow doc in diccionarioTable.Rows)
+                            {
+                                if (doc.ItemArray[0].ToString().Contains(tempconsulta[i]))
+                                {
+                                    consulta.Add(doc.ItemArray[0].ToString());
+                                }
+                            }
+                        }
+                        else {
+                            consulta.Add(tempconsulta[i]);
+
+                        }
+                    }
+
+
 
                     List<TerminoConsulta> consultas = new List<TerminoConsulta>();
                     foreach (String termino in consulta)
@@ -144,11 +169,39 @@ namespace ConsoleApplication1
 
 
 
-                    var newList = normaDocumentos.OrderByDescending(x => x.Item3).ToList();
+                    List<Tuple<int, float, float>> escalaf = normaDocumentos.OrderByDescending(x => x.Item3).ToList();
+
+                    DataTable escalafon = new DataTable();
+                    escalafon.Columns.Add("posicion",typeof(int));
+                    escalafon.Columns.Add("docId",typeof(int));
+                    escalafon.Columns.Add("similitud", typeof(float));
+                    escalafon.Columns.Add("taxon_name", typeof(string));
+                    escalafon.Columns.Add("rank", typeof(string));
+                    escalafon.Columns.Add("path", typeof(string));
+
+                    DataColumn[] keyColumns = new DataColumn[1];
+                    keyColumns[0] = documentosTable.Columns["docID"];
+                    documentosTable.PrimaryKey = keyColumns;
+
+                    int posicion = 1;
+
+                    foreach (Tuple<int, float, float> pos in escalaf) {
 
 
 
+                        string fileName = documentosTable.Rows.Find(pos.Item1).ItemArray[1].ToString() ;
 
+                        XmlDocument myDoc = new XmlDocument();
+                        myDoc.Load(fileName);
+
+                        string taxon_description = myDoc.SelectSingleNode("//@taxon_description").Value;
+                        string rank = myDoc.SelectSingleNode("//@rank").Value;
+                        string taxonName = myDoc.SelectSingleNode("//@taxon_name").Value;
+
+                        escalafon.Rows.Add(posicion,pos.Item1,pos.Item3,taxonName,rank,fileName);
+                        posicion++;
+                    }
+                   
 
 
 
