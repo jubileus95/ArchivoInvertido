@@ -263,10 +263,18 @@ namespace ConsoleApplication1
                 }
             }
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VentanaEscalafon(escalafon));
+            if (isFrase) {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new VentanaEscalafon(escalafon2));
+            } 
+           
 
+            else{
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new VentanaEscalafon(escalafon));
+            }
 
 
 
