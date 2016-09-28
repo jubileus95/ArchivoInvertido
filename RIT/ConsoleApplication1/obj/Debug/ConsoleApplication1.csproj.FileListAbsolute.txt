@@ -34,3 +34,5 @@ C:\Users\curso\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\obj\Debug\C
 C:\Users\curso\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 C:\Users\curso\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\curso\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Barrantes\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\obj\Debug\ConsoleApplication1.VentanaEscalafon.resources
+C:\Users\Barrantes\Source\Repos\ArchivoInvertido\RIT\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.GenerateResource.Cache

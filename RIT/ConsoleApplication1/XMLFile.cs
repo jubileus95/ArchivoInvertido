@@ -256,9 +256,7 @@ namespace ConsoleApplication1
 
             foreach (char c in description)
             {
-                if (c == 'ñ') {
-                    System.Console.Write(c);
-                }
+                
                 if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == ' ' || c=='ñ' || c=='Ñ')
                 { sb.Append(c); }
                 else { sb.Append(' '); }

@@ -708,4 +708,4 @@
 707|../../Flora-20160122\97-Cinnamomum costaricanum (Mez & Pittier) Kosterm..xml|27,10321
 708|../../Flora-20160122\98-Cinnamomum hammelianum (W. C. Burger) Lorea-Hern. ex Gonz. Ram. & Poveda.xml|28,73561
 709|../../Flora-20160122\99-Cinnamomum neurophyllum (Mez & Pittier) Kosterm..xml|20,99396
-*****END OF DATA****26/09/2016 23:38:56
+***** Cantidad total de entradas: 710****27/09/2016 20:55:08
