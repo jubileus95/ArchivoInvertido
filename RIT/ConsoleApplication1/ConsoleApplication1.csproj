@@ -63,6 +63,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="es.json" />
+    <None Include="TP1-BarrantesJoel-VillalobosJosue.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Flora-20160122\" />
